@@ -1,0 +1,71 @@
+import { Controller, Get, Param } from '@nestjs/common';
+import { ValidationException } from '../../exeptions/validation.exception';
+import { CountryDTO } from './country.dto';
+import { Country } from './country.interface';
+import { CountryService } from './country.service';
+
+@Controller('country')
+export class CountryController {
+
+    constructor(private readonly countryService: CountryService) { }
+
+    @Get()
+    public async GetAll(): Promise<CountryDTO[]> {
+        const result = await this.countryService.getAll();
+
+        return result.map((x) => new CountryDTO(x));
+    }
+
+    @Get('code/:code')
+    public async GetByCode(@Param('code') code: string): Promise<CountryDTO> {
+        const result = await this.GetCountryByCode(code);
+
+        return new CountryDTO(result);
+    }
+
+    @Get('capital/:capital')
+    public async GetByCapital(@Param('capital') capital: string): Promise<CountryDTO> {
+        const result = await this.countryService.getByCapital(capital);
+
+        return new CountryDTO(result);
+    }
+
+    @Get('name/:name')
+    public async GetByName(@Param('name') name: string): Promise<CountryDTO> {
+        const result = await this.countryService.getByCommonName(name);
+
+        return new CountryDTO(result);
+    }
+
+    @Get('region/:region')
+    public async GetByRegion(@Param('region') region: string): Promise<CountryDTO[]> {
+        const result = await this.countryService.getByRegion(region);
+
+        return result.map((x) => new CountryDTO(x));
+    }
+
+    @Get('currency/:currency')
+    public async GetByCurrency(@Param('currency') currency: string): Promise<CountryDTO[]> {
+        const result = await this.countryService.getByCurrency(currency);
+
+        return result.map((x) => new CountryDTO(x));
+    }
+
+    private GetCountryByCode(code: string): Promise<Country> {
+        const numberCode = Number(code);
+
+        if (!isNaN(numberCode))
+            return this.countryService.getByNumericCode(numberCode);
+
+        switch (code.length) {
+            case 2:
+                return this.countryService.getByAlpha2Code(code);
+
+            case 3:
+                return this.countryService.getByAlpha3Code(code);
+
+            default:
+                throw new ValidationException(`Unknown country code format ${code}`);
+        }
+    }
+}

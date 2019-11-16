@@ -1,0 +1,2970 @@
+[
+    {
+        "gmtName": "UTC",
+        "gmtOffset": 0,
+        "zoneName": "Africa/Abidjan",
+        "alpha2Code": "CI",
+        "alpha3Code": "CIV"
+    },
+    {
+        "gmtName": "UTC",
+        "gmtOffset": 0,
+        "zoneName": "Africa/Accra",
+        "alpha2Code": "GH",
+        "alpha3Code": "GHA"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Africa/Addis_Ababa",
+        "alpha2Code": "ET",
+        "alpha3Code": "ETH"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Africa/Algiers",
+        "alpha2Code": "DZ",
+        "alpha3Code": "DZA"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Africa/Asmara",
+        "alpha2Code": "ER",
+        "alpha3Code": "ERI"
+    },
+    {
+        "gmtName": "UTC",
+        "gmtOffset": 0,
+        "zoneName": "Africa/Bamako",
+        "alpha2Code": "ML",
+        "alpha3Code": "MLI"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Africa/Bangui",
+        "alpha2Code": "CF",
+        "alpha3Code": "CAF"
+    },
+    {
+        "gmtName": "UTC",
+        "gmtOffset": 0,
+        "zoneName": "Africa/Banjul",
+        "alpha2Code": "GM",
+        "alpha3Code": "GMB"
+    },
+    {
+        "gmtName": "UTC",
+        "gmtOffset": 0,
+        "zoneName": "Africa/Bissau",
+        "alpha2Code": "GW",
+        "alpha3Code": "GNB"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Africa/Blantyre",
+        "alpha2Code": "MW",
+        "alpha3Code": "MWI"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Africa/Brazzaville",
+        "alpha2Code": "CG",
+        "alpha3Code": "COG"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Africa/Bujumbura",
+        "alpha2Code": "BI",
+        "alpha3Code": "BDI"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Africa/Cairo",
+        "alpha2Code": "EG",
+        "alpha3Code": "EGY"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Africa/Casablanca",
+        "alpha2Code": "MA",
+        "alpha3Code": "MAR"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Africa/Ceuta",
+        "alpha2Code": "ES",
+        "alpha3Code": "ESP"
+    },
+    {
+        "gmtName": "UTC",
+        "gmtOffset": 0,
+        "zoneName": "Africa/Conakry",
+        "alpha2Code": "GN",
+        "alpha3Code": "GIN"
+    },
+    {
+        "gmtName": "UTC",
+        "gmtOffset": 0,
+        "zoneName": "Africa/Dakar",
+        "alpha2Code": "SN",
+        "alpha3Code": "SEN"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Africa/Dar_es_Salaam",
+        "alpha2Code": "TZ",
+        "alpha3Code": "TZA"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Africa/Djibouti",
+        "alpha2Code": "DJ",
+        "alpha3Code": "DJI"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Africa/Douala",
+        "alpha2Code": "CM",
+        "alpha3Code": "CMR"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Africa/El_Aaiun",
+        "alpha2Code": "EH",
+        "alpha3Code": "ESH"
+    },
+    {
+        "gmtName": "UTC",
+        "gmtOffset": 0,
+        "zoneName": "Africa/Freetown",
+        "alpha2Code": "SL",
+        "alpha3Code": "SLE"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Africa/Gaborone",
+        "alpha2Code": "BW",
+        "alpha3Code": "BWA"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Africa/Harare",
+        "alpha2Code": "ZW",
+        "alpha3Code": "ZWE"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Africa/Johannesburg",
+        "alpha2Code": "ZA",
+        "alpha3Code": "ZAF"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Africa/Juba",
+        "alpha2Code": "SS",
+        "alpha3Code": "SSD"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Africa/Kampala",
+        "alpha2Code": "UG",
+        "alpha3Code": "UGA"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Africa/Khartoum",
+        "alpha2Code": "SD",
+        "alpha3Code": "SDN"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Africa/Kigali",
+        "alpha2Code": "RW",
+        "alpha3Code": "RWA"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Africa/Kinshasa",
+        "alpha2Code": "CD",
+        "alpha3Code": "COD"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Africa/Lagos",
+        "alpha2Code": "NG",
+        "alpha3Code": "NGA"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Africa/Libreville",
+        "alpha2Code": "GA",
+        "alpha3Code": "GAB"
+    },
+    {
+        "gmtName": "UTC",
+        "gmtOffset": 0,
+        "zoneName": "Africa/Lome",
+        "alpha2Code": "TG",
+        "alpha3Code": "TGO"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Africa/Luanda",
+        "alpha2Code": "AO",
+        "alpha3Code": "AGO"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Africa/Lubumbashi",
+        "alpha2Code": "CD",
+        "alpha3Code": "COD"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Africa/Lusaka",
+        "alpha2Code": "ZM",
+        "alpha3Code": "ZMB"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Africa/Malabo",
+        "alpha2Code": "GQ",
+        "alpha3Code": "GNQ"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Africa/Maputo",
+        "alpha2Code": "MZ",
+        "alpha3Code": "MOZ"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Africa/Maseru",
+        "alpha2Code": "LS",
+        "alpha3Code": "LSO"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Africa/Mbabane",
+        "alpha2Code": "SZ",
+        "alpha3Code": "SWZ"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Africa/Mogadishu",
+        "alpha2Code": "SO",
+        "alpha3Code": "SOM"
+    },
+    {
+        "gmtName": "UTC",
+        "gmtOffset": 0,
+        "zoneName": "Africa/Monrovia",
+        "alpha2Code": "LR",
+        "alpha3Code": "LBR"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Africa/Nairobi",
+        "alpha2Code": "KE",
+        "alpha3Code": "KEN"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Africa/Ndjamena",
+        "alpha2Code": "TD",
+        "alpha3Code": "TCD"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Africa/Niamey",
+        "alpha2Code": "NE",
+        "alpha3Code": "NER"
+    },
+    {
+        "gmtName": "UTC",
+        "gmtOffset": 0,
+        "zoneName": "Africa/Nouakchott",
+        "alpha2Code": "MR",
+        "alpha3Code": "MRT"
+    },
+    {
+        "gmtName": "UTC",
+        "gmtOffset": 0,
+        "zoneName": "Africa/Ouagadougou",
+        "alpha2Code": "BF",
+        "alpha3Code": "BFA"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Africa/Porto-Novo",
+        "alpha2Code": "BJ",
+        "alpha3Code": "BEN"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Africa/Sao_Tome",
+        "alpha2Code": "ST",
+        "alpha3Code": "STP"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Africa/Tripoli",
+        "alpha2Code": "LY",
+        "alpha3Code": "LBY"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Africa/Tunis",
+        "alpha2Code": "TN",
+        "alpha3Code": "TUN"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Africa/Windhoek",
+        "alpha2Code": "NA",
+        "alpha3Code": "NAM"
+    },
+    {
+        "gmtName": "UTC-09:00",
+        "gmtOffset": -32400,
+        "zoneName": "America/Adak",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-08:00",
+        "gmtOffset": -28800,
+        "zoneName": "America/Anchorage",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Anguilla",
+        "alpha2Code": "AI",
+        "alpha3Code": "AIA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Antigua",
+        "alpha2Code": "AG",
+        "alpha3Code": "ATG"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Araguaina",
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Argentina/Buenos_Aires",
+        "alpha2Code": "AR",
+        "alpha3Code": "ARG"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Argentina/Catamarca",
+        "alpha2Code": "AR",
+        "alpha3Code": "ARG"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Argentina/Cordoba",
+        "alpha2Code": "AR",
+        "alpha3Code": "ARG"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Argentina/Jujuy",
+        "alpha2Code": "AR",
+        "alpha3Code": "ARG"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Argentina/La_Rioja",
+        "alpha2Code": "AR",
+        "alpha3Code": "ARG"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Argentina/Mendoza",
+        "alpha2Code": "AR",
+        "alpha3Code": "ARG"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Argentina/Rio_Gallegos",
+        "alpha2Code": "AR",
+        "alpha3Code": "ARG"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Argentina/Salta",
+        "alpha2Code": "AR",
+        "alpha3Code": "ARG"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Argentina/San_Juan",
+        "alpha2Code": "AR",
+        "alpha3Code": "ARG"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Argentina/San_Luis",
+        "alpha2Code": "AR",
+        "alpha3Code": "ARG"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Argentina/Tucuman",
+        "alpha2Code": "AR",
+        "alpha3Code": "ARG"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Argentina/Ushuaia",
+        "alpha2Code": "AR",
+        "alpha3Code": "ARG"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Aruba",
+        "alpha2Code": "AW",
+        "alpha3Code": "ABW"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Asuncion",
+        "alpha2Code": "PY",
+        "alpha3Code": "PRY"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Atikokan",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Bahia",
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Bahia_Banderas",
+        "alpha2Code": "MX",
+        "alpha3Code": "MEX"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Barbados",
+        "alpha2Code": "BB",
+        "alpha3Code": "BRB"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Belem",
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "America/Belize",
+        "alpha2Code": "BZ",
+        "alpha3Code": "BLZ"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Blanc-Sablon",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Boa_Vista",
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Bogota",
+        "alpha2Code": "CO",
+        "alpha3Code": "COL"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "America/Boise",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "America/Cambridge_Bay",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Campo_Grande",
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Cancun",
+        "alpha2Code": "MX",
+        "alpha3Code": "MEX"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Caracas",
+        "alpha2Code": "VE",
+        "alpha3Code": "VEN"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Cayenne",
+        "alpha2Code": "GF",
+        "alpha3Code": "GUF"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Cayman",
+        "alpha2Code": "KY",
+        "alpha3Code": "CYM"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Chicago",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "America/Chihuahua",
+        "alpha2Code": "MX",
+        "alpha3Code": "MEX"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "America/Costa_Rica",
+        "alpha2Code": "CR",
+        "alpha3Code": "CRI"
+    },
+    {
+        "gmtName": "UTC-07:00",
+        "gmtOffset": -25200,
+        "zoneName": "America/Creston",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Cuiaba",
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Curacao",
+        "alpha2Code": "CW",
+        "alpha3Code": "CUW"
+    },
+    {
+        "gmtName": "UTC",
+        "gmtOffset": 0,
+        "zoneName": "America/Danmarkshavn",
+        "alpha2Code": "GL",
+        "alpha3Code": "GRL"
+    },
+    {
+        "gmtName": "UTC-07:00",
+        "gmtOffset": -25200,
+        "zoneName": "America/Dawson",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-07:00",
+        "gmtOffset": -25200,
+        "zoneName": "America/Dawson_Creek",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "America/Denver",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Detroit",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Dominica",
+        "alpha2Code": "DM",
+        "alpha3Code": "DMA"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "America/Edmonton",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Eirunepe",
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "America/El_Salvador",
+        "alpha2Code": "SV",
+        "alpha3Code": "SLV"
+    },
+    {
+        "gmtName": "UTC-07:00",
+        "gmtOffset": -25200,
+        "zoneName": "America/Fort_Nelson",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Fortaleza",
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Glace_Bay",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-02:00",
+        "gmtOffset": -7200,
+        "zoneName": "America/Godthab",
+        "alpha2Code": "GL",
+        "alpha3Code": "GRL"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Goose_Bay",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Grand_Turk",
+        "alpha2Code": "TC",
+        "alpha3Code": "TCA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Grenada",
+        "alpha2Code": "GD",
+        "alpha3Code": "GRD"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Guadeloupe",
+        "alpha2Code": "GP",
+        "alpha3Code": "GLP"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "America/Guatemala",
+        "alpha2Code": "GT",
+        "alpha3Code": "GTM"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Guayaquil",
+        "alpha2Code": "EC",
+        "alpha3Code": "ECU"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Guyana",
+        "alpha2Code": "GY",
+        "alpha3Code": "GUY"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Halifax",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Havana",
+        "alpha2Code": "CU",
+        "alpha3Code": "CUB"
+    },
+    {
+        "gmtName": "UTC-07:00",
+        "gmtOffset": -25200,
+        "zoneName": "America/Hermosillo",
+        "alpha2Code": "MX",
+        "alpha3Code": "MEX"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Indiana/Indianapolis",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Indiana/Knox",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Indiana/Marengo",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Indiana/Petersburg",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Indiana/Tell_City",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Indiana/Vevay",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Indiana/Vincennes",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Indiana/Winamac",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "America/Inuvik",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Iqaluit",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Jamaica",
+        "alpha2Code": "JM",
+        "alpha3Code": "JAM"
+    },
+    {
+        "gmtName": "UTC-08:00",
+        "gmtOffset": -28800,
+        "zoneName": "America/Juneau",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Kentucky/Louisville",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Kentucky/Monticello",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Kralendijk",
+        "alpha2Code": "BQ",
+        "alpha3Code": "BES"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/La_Paz",
+        "alpha2Code": "BO",
+        "alpha3Code": "BOL"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Lima",
+        "alpha2Code": "PE",
+        "alpha3Code": "PER"
+    },
+    {
+        "gmtName": "UTC-07:00",
+        "gmtOffset": -25200,
+        "zoneName": "America/Los_Angeles",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Lower_Princes",
+        "alpha2Code": "SX",
+        "alpha3Code": "SXM"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Maceio",
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "America/Managua",
+        "alpha2Code": "NI",
+        "alpha3Code": "NIC"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Manaus",
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Marigot",
+        "alpha2Code": "MF",
+        "alpha3Code": "MAF"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Martinique",
+        "alpha2Code": "MQ",
+        "alpha3Code": "MTQ"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Matamoros",
+        "alpha2Code": "MX",
+        "alpha3Code": "MEX"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "America/Mazatlan",
+        "alpha2Code": "MX",
+        "alpha3Code": "MEX"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Menominee",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Merida",
+        "alpha2Code": "MX",
+        "alpha3Code": "MEX"
+    },
+    {
+        "gmtName": "UTC-08:00",
+        "gmtOffset": -28800,
+        "zoneName": "America/Metlakatla",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Mexico_City",
+        "alpha2Code": "MX",
+        "alpha3Code": "MEX"
+    },
+    {
+        "gmtName": "UTC-02:00",
+        "gmtOffset": -7200,
+        "zoneName": "America/Miquelon",
+        "alpha2Code": "PM",
+        "alpha3Code": "SPM"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Moncton",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Monterrey",
+        "alpha2Code": "MX",
+        "alpha3Code": "MEX"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Montevideo",
+        "alpha2Code": "UY",
+        "alpha3Code": "URY"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Montserrat",
+        "alpha2Code": "MS",
+        "alpha3Code": "MSR"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Nassau",
+        "alpha2Code": "BS",
+        "alpha3Code": "BHS"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/New_York",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Nipigon",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-08:00",
+        "gmtOffset": -28800,
+        "zoneName": "America/Nome",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-02:00",
+        "gmtOffset": -7200,
+        "zoneName": "America/Noronha",
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/North_Dakota/Beulah",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/North_Dakota/Center",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/North_Dakota/New_Salem",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "America/Ojinaga",
+        "alpha2Code": "MX",
+        "alpha3Code": "MEX"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Panama",
+        "alpha2Code": "PA",
+        "alpha3Code": "PAN"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Pangnirtung",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Paramaribo",
+        "alpha2Code": "SR",
+        "alpha3Code": "SUR"
+    },
+    {
+        "gmtName": "UTC-07:00",
+        "gmtOffset": -25200,
+        "zoneName": "America/Phoenix",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Port_of_Spain",
+        "alpha2Code": "TT",
+        "alpha3Code": "TTO"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Port-au-Prince",
+        "alpha2Code": "HT",
+        "alpha3Code": "HTI"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Porto_Velho",
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Puerto_Rico",
+        "alpha2Code": "PR",
+        "alpha3Code": "PRI"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Punta_Arenas",
+        "alpha2Code": "CL",
+        "alpha3Code": "CHL"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Rainy_River",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Rankin_Inlet",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Recife",
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "America/Regina",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Resolute",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Rio_Branco",
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Santarem",
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Santiago",
+        "alpha2Code": "CL",
+        "alpha3Code": "CHL"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Santo_Domingo",
+        "alpha2Code": "DO",
+        "alpha3Code": "DOM"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Sao_Paulo",
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA"
+    },
+    {
+        "gmtName": "UTC",
+        "gmtOffset": 0,
+        "zoneName": "America/Scoresbysund",
+        "alpha2Code": "GL",
+        "alpha3Code": "GRL"
+    },
+    {
+        "gmtName": "UTC-08:00",
+        "gmtOffset": -28800,
+        "zoneName": "America/Sitka",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/St_Barthelemy",
+        "alpha2Code": "BL",
+        "alpha3Code": "BLM"
+    },
+    {
+        "gmtName": "UTC-02:30",
+        "gmtOffset": -9000,
+        "zoneName": "America/St_Johns",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/St_Kitts",
+        "alpha2Code": "KN",
+        "alpha3Code": "KNA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/St_Lucia",
+        "alpha2Code": "LC",
+        "alpha3Code": "LCA"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/St_Thomas",
+        "alpha2Code": "VI",
+        "alpha3Code": "VIR"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/St_Vincent",
+        "alpha2Code": "VC",
+        "alpha3Code": "VCT"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "America/Swift_Current",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "America/Tegucigalpa",
+        "alpha2Code": "HN",
+        "alpha3Code": "HND"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "America/Thule",
+        "alpha2Code": "GL",
+        "alpha3Code": "GRL"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Thunder_Bay",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-07:00",
+        "gmtOffset": -25200,
+        "zoneName": "America/Tijuana",
+        "alpha2Code": "MX",
+        "alpha3Code": "MEX"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Toronto",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-04:00",
+        "gmtOffset": -14400,
+        "zoneName": "America/Tortola",
+        "alpha2Code": "VG",
+        "alpha3Code": "VGB"
+    },
+    {
+        "gmtName": "UTC-07:00",
+        "gmtOffset": -25200,
+        "zoneName": "America/Vancouver",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-07:00",
+        "gmtOffset": -25200,
+        "zoneName": "America/Whitehorse",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-05:00",
+        "gmtOffset": -18000,
+        "zoneName": "America/Winnipeg",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC-08:00",
+        "gmtOffset": -28800,
+        "zoneName": "America/Yakutat",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "America/Yellowknife",
+        "alpha2Code": "CA",
+        "alpha3Code": "CAN"
+    },
+    {
+        "gmtName": "UTC+08:00",
+        "gmtOffset": 28800,
+        "zoneName": "Antarctica/Casey",
+        "alpha2Code": "AQ",
+        "alpha3Code": "ATA"
+    },
+    {
+        "gmtName": "UTC+07:00",
+        "gmtOffset": 25200,
+        "zoneName": "Antarctica/Davis",
+        "alpha2Code": "AQ",
+        "alpha3Code": "ATA"
+    },
+    {
+        "gmtName": "UTC+10:00",
+        "gmtOffset": 36000,
+        "zoneName": "Antarctica/DumontDUrville",
+        "alpha2Code": "AQ",
+        "alpha3Code": "ATA"
+    },
+    {
+        "gmtName": "UTC+11:00",
+        "gmtOffset": 39600,
+        "zoneName": "Antarctica/Macquarie",
+        "alpha2Code": "AU",
+        "alpha3Code": "AUS"
+    },
+    {
+        "gmtName": "UTC+05:00",
+        "gmtOffset": 18000,
+        "zoneName": "Antarctica/Mawson",
+        "alpha2Code": "AQ",
+        "alpha3Code": "ATA"
+    },
+    {
+        "gmtName": "UTC+12:00",
+        "gmtOffset": 43200,
+        "zoneName": "Antarctica/McMurdo",
+        "alpha2Code": "AQ",
+        "alpha3Code": "ATA"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "Antarctica/Palmer",
+        "alpha2Code": "AQ",
+        "alpha3Code": "ATA"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "Antarctica/Rothera",
+        "alpha2Code": "AQ",
+        "alpha3Code": "ATA"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Antarctica/Syowa",
+        "alpha2Code": "AQ",
+        "alpha3Code": "ATA"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Antarctica/Troll",
+        "alpha2Code": "AQ",
+        "alpha3Code": "ATA"
+    },
+    {
+        "gmtName": "UTC+06:00",
+        "gmtOffset": 21600,
+        "zoneName": "Antarctica/Vostok",
+        "alpha2Code": "AQ",
+        "alpha3Code": "ATA"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Arctic/Longyearbyen",
+        "alpha2Code": "SJ",
+        "alpha3Code": "SJM"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Asia/Aden",
+        "alpha2Code": "YE",
+        "alpha3Code": "YEM"
+    },
+    {
+        "gmtName": "UTC+06:00",
+        "gmtOffset": 21600,
+        "zoneName": "Asia/Almaty",
+        "alpha2Code": "KZ",
+        "alpha3Code": "KAZ"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Asia/Amman",
+        "alpha2Code": "JO",
+        "alpha3Code": "JOR"
+    },
+    {
+        "gmtName": "UTC+12:00",
+        "gmtOffset": 43200,
+        "zoneName": "Asia/Anadyr",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+05:00",
+        "gmtOffset": 18000,
+        "zoneName": "Asia/Aqtau",
+        "alpha2Code": "KZ",
+        "alpha3Code": "KAZ"
+    },
+    {
+        "gmtName": "UTC+05:00",
+        "gmtOffset": 18000,
+        "zoneName": "Asia/Aqtobe",
+        "alpha2Code": "KZ",
+        "alpha3Code": "KAZ"
+    },
+    {
+        "gmtName": "UTC+05:00",
+        "gmtOffset": 18000,
+        "zoneName": "Asia/Ashgabat",
+        "alpha2Code": "TM",
+        "alpha3Code": "TKM"
+    },
+    {
+        "gmtName": "UTC+05:00",
+        "gmtOffset": 18000,
+        "zoneName": "Asia/Atyrau",
+        "alpha2Code": "KZ",
+        "alpha3Code": "KAZ"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Asia/Baghdad",
+        "alpha2Code": "IQ",
+        "alpha3Code": "IRQ"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Asia/Bahrain",
+        "alpha2Code": "BH",
+        "alpha3Code": "BHR"
+    },
+    {
+        "gmtName": "UTC+04:00",
+        "gmtOffset": 14400,
+        "zoneName": "Asia/Baku",
+        "alpha2Code": "AZ",
+        "alpha3Code": "AZE"
+    },
+    {
+        "gmtName": "UTC+07:00",
+        "gmtOffset": 25200,
+        "zoneName": "Asia/Bangkok",
+        "alpha2Code": "TH",
+        "alpha3Code": "THA"
+    },
+    {
+        "gmtName": "UTC+07:00",
+        "gmtOffset": 25200,
+        "zoneName": "Asia/Barnaul",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Asia/Beirut",
+        "alpha2Code": "LB",
+        "alpha3Code": "LBN"
+    },
+    {
+        "gmtName": "UTC+06:00",
+        "gmtOffset": 21600,
+        "zoneName": "Asia/Bishkek",
+        "alpha2Code": "KG",
+        "alpha3Code": "KGZ"
+    },
+    {
+        "gmtName": "UTC+08:00",
+        "gmtOffset": 28800,
+        "zoneName": "Asia/Brunei",
+        "alpha2Code": "BN",
+        "alpha3Code": "BRN"
+    },
+    {
+        "gmtName": "UTC+09:00",
+        "gmtOffset": 32400,
+        "zoneName": "Asia/Chita",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+08:00",
+        "gmtOffset": 28800,
+        "zoneName": "Asia/Choibalsan",
+        "alpha2Code": "MN",
+        "alpha3Code": "MNG"
+    },
+    {
+        "gmtName": "UTC+05:30",
+        "gmtOffset": 19800,
+        "zoneName": "Asia/Colombo",
+        "alpha2Code": "LK",
+        "alpha3Code": "LKA"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Asia/Damascus",
+        "alpha2Code": "SY",
+        "alpha3Code": "SYR"
+    },
+    {
+        "gmtName": "UTC+06:00",
+        "gmtOffset": 21600,
+        "zoneName": "Asia/Dhaka",
+        "alpha2Code": "BD",
+        "alpha3Code": "BGD"
+    },
+    {
+        "gmtName": "UTC+09:00",
+        "gmtOffset": 32400,
+        "zoneName": "Asia/Dili",
+        "alpha2Code": "TL",
+        "alpha3Code": "TLS"
+    },
+    {
+        "gmtName": "UTC+04:00",
+        "gmtOffset": 14400,
+        "zoneName": "Asia/Dubai",
+        "alpha2Code": "AE",
+        "alpha3Code": "ARE"
+    },
+    {
+        "gmtName": "UTC+05:00",
+        "gmtOffset": 18000,
+        "zoneName": "Asia/Dushanbe",
+        "alpha2Code": "TJ",
+        "alpha3Code": "TJK"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Asia/Famagusta",
+        "alpha2Code": "CY",
+        "alpha3Code": "CYP"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Asia/Gaza",
+        "alpha2Code": "PS",
+        "alpha3Code": "PSE"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Asia/Hebron",
+        "alpha2Code": "PS",
+        "alpha3Code": "PSE"
+    },
+    {
+        "gmtName": "UTC+07:00",
+        "gmtOffset": 25200,
+        "zoneName": "Asia/Ho_Chi_Minh",
+        "alpha2Code": "VN",
+        "alpha3Code": "VNM"
+    },
+    {
+        "gmtName": "UTC+08:00",
+        "gmtOffset": 28800,
+        "zoneName": "Asia/Hong_Kong",
+        "alpha2Code": "HK",
+        "alpha3Code": "HKG"
+    },
+    {
+        "gmtName": "UTC+07:00",
+        "gmtOffset": 25200,
+        "zoneName": "Asia/Hovd",
+        "alpha2Code": "MN",
+        "alpha3Code": "MNG"
+    },
+    {
+        "gmtName": "UTC+08:00",
+        "gmtOffset": 28800,
+        "zoneName": "Asia/Irkutsk",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+07:00",
+        "gmtOffset": 25200,
+        "zoneName": "Asia/Jakarta",
+        "alpha2Code": "ID",
+        "alpha3Code": "IDN"
+    },
+    {
+        "gmtName": "UTC+09:00",
+        "gmtOffset": 32400,
+        "zoneName": "Asia/Jayapura",
+        "alpha2Code": "ID",
+        "alpha3Code": "IDN"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Asia/Jerusalem",
+        "alpha2Code": "IL",
+        "alpha3Code": "ISR"
+    },
+    {
+        "gmtName": "UTC+04:30",
+        "gmtOffset": 16200,
+        "zoneName": "Asia/Kabul",
+        "alpha2Code": "AF",
+        "alpha3Code": "AFG"
+    },
+    {
+        "gmtName": "UTC+12:00",
+        "gmtOffset": 43200,
+        "zoneName": "Asia/Kamchatka",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+05:00",
+        "gmtOffset": 18000,
+        "zoneName": "Asia/Karachi",
+        "alpha2Code": "PK",
+        "alpha3Code": "PAK"
+    },
+    {
+        "gmtName": "UTC+05:45",
+        "gmtOffset": 20700,
+        "zoneName": "Asia/Kathmandu",
+        "alpha2Code": "NP",
+        "alpha3Code": "NPL"
+    },
+    {
+        "gmtName": "UTC+09:00",
+        "gmtOffset": 32400,
+        "zoneName": "Asia/Khandyga",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+05:30",
+        "gmtOffset": 19800,
+        "zoneName": "Asia/Kolkata",
+        "alpha2Code": "IN",
+        "alpha3Code": "IND"
+    },
+    {
+        "gmtName": "UTC+07:00",
+        "gmtOffset": 25200,
+        "zoneName": "Asia/Krasnoyarsk",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+08:00",
+        "gmtOffset": 28800,
+        "zoneName": "Asia/Kuala_Lumpur",
+        "alpha2Code": "MY",
+        "alpha3Code": "MYS"
+    },
+    {
+        "gmtName": "UTC+08:00",
+        "gmtOffset": 28800,
+        "zoneName": "Asia/Kuching",
+        "alpha2Code": "MY",
+        "alpha3Code": "MYS"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Asia/Kuwait",
+        "alpha2Code": "KW",
+        "alpha3Code": "KWT"
+    },
+    {
+        "gmtName": "UTC+08:00",
+        "gmtOffset": 28800,
+        "zoneName": "Asia/Macau",
+        "alpha2Code": "MO",
+        "alpha3Code": "MAC"
+    },
+    {
+        "gmtName": "UTC+11:00",
+        "gmtOffset": 39600,
+        "zoneName": "Asia/Magadan",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+08:00",
+        "gmtOffset": 28800,
+        "zoneName": "Asia/Makassar",
+        "alpha2Code": "ID",
+        "alpha3Code": "IDN"
+    },
+    {
+        "gmtName": "UTC+08:00",
+        "gmtOffset": 28800,
+        "zoneName": "Asia/Manila",
+        "alpha2Code": "PH",
+        "alpha3Code": "PHL"
+    },
+    {
+        "gmtName": "UTC+04:00",
+        "gmtOffset": 14400,
+        "zoneName": "Asia/Muscat",
+        "alpha2Code": "OM",
+        "alpha3Code": "OMN"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Asia/Nicosia",
+        "alpha2Code": "CY",
+        "alpha3Code": "CYP"
+    },
+    {
+        "gmtName": "UTC+07:00",
+        "gmtOffset": 25200,
+        "zoneName": "Asia/Novokuznetsk",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+07:00",
+        "gmtOffset": 25200,
+        "zoneName": "Asia/Novosibirsk",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+06:00",
+        "gmtOffset": 21600,
+        "zoneName": "Asia/Omsk",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+05:00",
+        "gmtOffset": 18000,
+        "zoneName": "Asia/Oral",
+        "alpha2Code": "KZ",
+        "alpha3Code": "KAZ"
+    },
+    {
+        "gmtName": "UTC+07:00",
+        "gmtOffset": 25200,
+        "zoneName": "Asia/Phnom_Penh",
+        "alpha2Code": "KH",
+        "alpha3Code": "KHM"
+    },
+    {
+        "gmtName": "UTC+07:00",
+        "gmtOffset": 25200,
+        "zoneName": "Asia/Pontianak",
+        "alpha2Code": "ID",
+        "alpha3Code": "IDN"
+    },
+    {
+        "gmtName": "UTC+09:00",
+        "gmtOffset": 32400,
+        "zoneName": "Asia/Pyongyang",
+        "alpha2Code": "KP",
+        "alpha3Code": "PRK"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Asia/Qatar",
+        "alpha2Code": "QA",
+        "alpha3Code": "QAT"
+    },
+    {
+        "gmtName": "UTC+06:00",
+        "gmtOffset": 21600,
+        "zoneName": "Asia/Qyzylorda",
+        "alpha2Code": "KZ",
+        "alpha3Code": "KAZ"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Asia/Riyadh",
+        "alpha2Code": "SA",
+        "alpha3Code": "SAU"
+    },
+    {
+        "gmtName": "UTC+11:00",
+        "gmtOffset": 39600,
+        "zoneName": "Asia/Sakhalin",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+05:00",
+        "gmtOffset": 18000,
+        "zoneName": "Asia/Samarkand",
+        "alpha2Code": "UZ",
+        "alpha3Code": "UZB"
+    },
+    {
+        "gmtName": "UTC+09:00",
+        "gmtOffset": 32400,
+        "zoneName": "Asia/Seoul",
+        "alpha2Code": "KR",
+        "alpha3Code": "KOR"
+    },
+    {
+        "gmtName": "UTC+08:00",
+        "gmtOffset": 28800,
+        "zoneName": "Asia/Shanghai",
+        "alpha2Code": "CN",
+        "alpha3Code": "CHN"
+    },
+    {
+        "gmtName": "UTC+08:00",
+        "gmtOffset": 28800,
+        "zoneName": "Asia/Singapore",
+        "alpha2Code": "SG",
+        "alpha3Code": "SGP"
+    },
+    {
+        "gmtName": "UTC+11:00",
+        "gmtOffset": 39600,
+        "zoneName": "Asia/Srednekolymsk",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+08:00",
+        "gmtOffset": 28800,
+        "zoneName": "Asia/Taipei",
+        "alpha2Code": "TW",
+        "alpha3Code": "TWN"
+    },
+    {
+        "gmtName": "UTC+05:00",
+        "gmtOffset": 18000,
+        "zoneName": "Asia/Tashkent",
+        "alpha2Code": "UZ",
+        "alpha3Code": "UZB"
+    },
+    {
+        "gmtName": "UTC+04:00",
+        "gmtOffset": 14400,
+        "zoneName": "Asia/Tbilisi",
+        "alpha2Code": "GE",
+        "alpha3Code": "GEO"
+    },
+    {
+        "gmtName": "UTC+04:30",
+        "gmtOffset": 16200,
+        "zoneName": "Asia/Tehran",
+        "alpha2Code": "IR",
+        "alpha3Code": "IRN"
+    },
+    {
+        "gmtName": "UTC+06:00",
+        "gmtOffset": 21600,
+        "zoneName": "Asia/Thimphu",
+        "alpha2Code": "BT",
+        "alpha3Code": "BTN"
+    },
+    {
+        "gmtName": "UTC+09:00",
+        "gmtOffset": 32400,
+        "zoneName": "Asia/Tokyo",
+        "alpha2Code": "JP",
+        "alpha3Code": "JPN"
+    },
+    {
+        "gmtName": "UTC+07:00",
+        "gmtOffset": 25200,
+        "zoneName": "Asia/Tomsk",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+08:00",
+        "gmtOffset": 28800,
+        "zoneName": "Asia/Ulaanbaatar",
+        "alpha2Code": "MN",
+        "alpha3Code": "MNG"
+    },
+    {
+        "gmtName": "UTC+06:00",
+        "gmtOffset": 21600,
+        "zoneName": "Asia/Urumqi",
+        "alpha2Code": "CN",
+        "alpha3Code": "CHN"
+    },
+    {
+        "gmtName": "UTC+10:00",
+        "gmtOffset": 36000,
+        "zoneName": "Asia/Ust-Nera",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+07:00",
+        "gmtOffset": 25200,
+        "zoneName": "Asia/Vientiane",
+        "alpha2Code": "LA",
+        "alpha3Code": "LAO"
+    },
+    {
+        "gmtName": "UTC+10:00",
+        "gmtOffset": 36000,
+        "zoneName": "Asia/Vladivostok",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+09:00",
+        "gmtOffset": 32400,
+        "zoneName": "Asia/Yakutsk",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+06:30",
+        "gmtOffset": 23400,
+        "zoneName": "Asia/Yangon",
+        "alpha2Code": "MM",
+        "alpha3Code": "MMR"
+    },
+    {
+        "gmtName": "UTC+05:00",
+        "gmtOffset": 18000,
+        "zoneName": "Asia/Yekaterinburg",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+04:00",
+        "gmtOffset": 14400,
+        "zoneName": "Asia/Yerevan",
+        "alpha2Code": "AM",
+        "alpha3Code": "ARM"
+    },
+    {
+        "gmtName": "UTC",
+        "gmtOffset": 0,
+        "zoneName": "Atlantic/Azores",
+        "alpha2Code": "PT",
+        "alpha3Code": "PRT"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "Atlantic/Bermuda",
+        "alpha2Code": "BM",
+        "alpha3Code": "BMU"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Atlantic/Canary",
+        "alpha2Code": "ES",
+        "alpha3Code": "ESP"
+    },
+    {
+        "gmtName": "UTC-01:00",
+        "gmtOffset": -3600,
+        "zoneName": "Atlantic/Cape_Verde",
+        "alpha2Code": "CV",
+        "alpha3Code": "CPV"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Atlantic/Faroe",
+        "alpha2Code": "FO",
+        "alpha3Code": "FRO"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Atlantic/Madeira",
+        "alpha2Code": "PT",
+        "alpha3Code": "PRT"
+    },
+    {
+        "gmtName": "UTC",
+        "gmtOffset": 0,
+        "zoneName": "Atlantic/Reykjavik",
+        "alpha2Code": "IS",
+        "alpha3Code": "ISL"
+    },
+    {
+        "gmtName": "UTC-02:00",
+        "gmtOffset": -7200,
+        "zoneName": "Atlantic/South_Georgia",
+        "alpha2Code": "GS",
+        "alpha3Code": "SGS"
+    },
+    {
+        "gmtName": "UTC",
+        "gmtOffset": 0,
+        "zoneName": "Atlantic/St_Helena",
+        "alpha2Code": "SH",
+        "alpha3Code": "SHN"
+    },
+    {
+        "gmtName": "UTC-03:00",
+        "gmtOffset": -10800,
+        "zoneName": "Atlantic/Stanley",
+        "alpha2Code": "FK",
+        "alpha3Code": "FLK"
+    },
+    {
+        "gmtName": "UTC+09:30",
+        "gmtOffset": 34200,
+        "zoneName": "Australia/Adelaide",
+        "alpha2Code": "AU",
+        "alpha3Code": "AUS"
+    },
+    {
+        "gmtName": "UTC+10:00",
+        "gmtOffset": 36000,
+        "zoneName": "Australia/Brisbane",
+        "alpha2Code": "AU",
+        "alpha3Code": "AUS"
+    },
+    {
+        "gmtName": "UTC+09:30",
+        "gmtOffset": 34200,
+        "zoneName": "Australia/Broken_Hill",
+        "alpha2Code": "AU",
+        "alpha3Code": "AUS"
+    },
+    {
+        "gmtName": "UTC+10:00",
+        "gmtOffset": 36000,
+        "zoneName": "Australia/Currie",
+        "alpha2Code": "AU",
+        "alpha3Code": "AUS"
+    },
+    {
+        "gmtName": "UTC+09:30",
+        "gmtOffset": 34200,
+        "zoneName": "Australia/Darwin",
+        "alpha2Code": "AU",
+        "alpha3Code": "AUS"
+    },
+    {
+        "gmtName": "UTC+08:45",
+        "gmtOffset": 31500,
+        "zoneName": "Australia/Eucla",
+        "alpha2Code": "AU",
+        "alpha3Code": "AUS"
+    },
+    {
+        "gmtName": "UTC+10:00",
+        "gmtOffset": 36000,
+        "zoneName": "Australia/Hobart",
+        "alpha2Code": "AU",
+        "alpha3Code": "AUS"
+    },
+    {
+        "gmtName": "UTC+10:00",
+        "gmtOffset": 36000,
+        "zoneName": "Australia/Lindeman",
+        "alpha2Code": "AU",
+        "alpha3Code": "AUS"
+    },
+    {
+        "gmtName": "UTC+10:30",
+        "gmtOffset": 37800,
+        "zoneName": "Australia/Lord_Howe",
+        "alpha2Code": "AU",
+        "alpha3Code": "AUS"
+    },
+    {
+        "gmtName": "UTC+10:00",
+        "gmtOffset": 36000,
+        "zoneName": "Australia/Melbourne",
+        "alpha2Code": "AU",
+        "alpha3Code": "AUS"
+    },
+    {
+        "gmtName": "UTC+08:00",
+        "gmtOffset": 28800,
+        "zoneName": "Australia/Perth",
+        "alpha2Code": "AU",
+        "alpha3Code": "AUS"
+    },
+    {
+        "gmtName": "UTC+10:00",
+        "gmtOffset": 36000,
+        "zoneName": "Australia/Sydney",
+        "alpha2Code": "AU",
+        "alpha3Code": "AUS"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Amsterdam",
+        "alpha2Code": "NL",
+        "alpha3Code": "NLD"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Andorra",
+        "alpha2Code": "AD",
+        "alpha3Code": "AND"
+    },
+    {
+        "gmtName": "UTC+04:00",
+        "gmtOffset": 14400,
+        "zoneName": "Europe/Astrakhan",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Europe/Athens",
+        "alpha2Code": "GR",
+        "alpha3Code": "GRC"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Belgrade",
+        "alpha2Code": "RS",
+        "alpha3Code": "SRB"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Berlin",
+        "alpha2Code": "DE",
+        "alpha3Code": "DEU"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Bratislava",
+        "alpha2Code": "SK",
+        "alpha3Code": "SVK"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Brussels",
+        "alpha2Code": "BE",
+        "alpha3Code": "BEL"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Europe/Bucharest",
+        "alpha2Code": "RO",
+        "alpha3Code": "ROU"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Budapest",
+        "alpha2Code": "HU",
+        "alpha3Code": "HUN"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Busingen",
+        "alpha2Code": "DE",
+        "alpha3Code": "DEU"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Europe/Chisinau",
+        "alpha2Code": "MD",
+        "alpha3Code": "MDA"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Copenhagen",
+        "alpha2Code": "DK",
+        "alpha3Code": "DNK"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Europe/Dublin",
+        "alpha2Code": "IE",
+        "alpha3Code": "IRL"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Gibraltar",
+        "alpha2Code": "GI",
+        "alpha3Code": "GIB"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Europe/Guernsey",
+        "alpha2Code": "GG",
+        "alpha3Code": "GGY"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Europe/Helsinki",
+        "alpha2Code": "FI",
+        "alpha3Code": "FIN"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Europe/Isle_of_Man",
+        "alpha2Code": "IM",
+        "alpha3Code": "IMN"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Europe/Istanbul",
+        "alpha2Code": "TR",
+        "alpha3Code": "TUR"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Europe/Jersey",
+        "alpha2Code": "JE",
+        "alpha3Code": "JEY"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Kaliningrad",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Europe/Kiev",
+        "alpha2Code": "UA",
+        "alpha3Code": "UKR"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Europe/Kirov",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Europe/Lisbon",
+        "alpha2Code": "PT",
+        "alpha3Code": "PRT"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Ljubljana",
+        "alpha2Code": "SI",
+        "alpha3Code": "SVN"
+    },
+    {
+        "gmtName": "UTC+01:00",
+        "gmtOffset": 3600,
+        "zoneName": "Europe/London",
+        "alpha2Code": "GB",
+        "alpha3Code": "GBR"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Luxembourg",
+        "alpha2Code": "LU",
+        "alpha3Code": "LUX"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Madrid",
+        "alpha2Code": "ES",
+        "alpha3Code": "ESP"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Malta",
+        "alpha2Code": "MT",
+        "alpha3Code": "MLT"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Europe/Mariehamn",
+        "alpha2Code": "AX",
+        "alpha3Code": "ALA"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Europe/Minsk",
+        "alpha2Code": "BY",
+        "alpha3Code": "BLR"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Monaco",
+        "alpha2Code": "MC",
+        "alpha3Code": "MCO"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Europe/Moscow",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Oslo",
+        "alpha2Code": "NO",
+        "alpha3Code": "NOR"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Paris",
+        "alpha2Code": "FR",
+        "alpha3Code": "FRA"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Podgorica",
+        "alpha2Code": "ME",
+        "alpha3Code": "MNE"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Prague",
+        "alpha2Code": "CZ",
+        "alpha3Code": "CZE"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Europe/Riga",
+        "alpha2Code": "LV",
+        "alpha3Code": "LVA"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Rome",
+        "alpha2Code": "IT",
+        "alpha3Code": "ITA"
+    },
+    {
+        "gmtName": "UTC+04:00",
+        "gmtOffset": 14400,
+        "zoneName": "Europe/Samara",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/San_Marino",
+        "alpha2Code": "SM",
+        "alpha3Code": "SMR"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Sarajevo",
+        "alpha2Code": "BA",
+        "alpha3Code": "BIH"
+    },
+    {
+        "gmtName": "UTC+04:00",
+        "gmtOffset": 14400,
+        "zoneName": "Europe/Saratov",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Europe/Simferopol",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Skopje",
+        "alpha2Code": "MK",
+        "alpha3Code": "MKD"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Europe/Sofia",
+        "alpha2Code": "BG",
+        "alpha3Code": "BGR"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Stockholm",
+        "alpha2Code": "SE",
+        "alpha3Code": "SWE"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Europe/Tallinn",
+        "alpha2Code": "EE",
+        "alpha3Code": "EST"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Tirane",
+        "alpha2Code": "AL",
+        "alpha3Code": "ALB"
+    },
+    {
+        "gmtName": "UTC+04:00",
+        "gmtOffset": 14400,
+        "zoneName": "Europe/Ulyanovsk",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Europe/Uzhgorod",
+        "alpha2Code": "UA",
+        "alpha3Code": "UKR"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Vaduz",
+        "alpha2Code": "LI",
+        "alpha3Code": "LIE"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Vatican",
+        "alpha2Code": "VA",
+        "alpha3Code": "VAT"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Vienna",
+        "alpha2Code": "AT",
+        "alpha3Code": "AUT"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Europe/Vilnius",
+        "alpha2Code": "LT",
+        "alpha3Code": "LTU"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Europe/Volgograd",
+        "alpha2Code": "RU",
+        "alpha3Code": "RUS"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Warsaw",
+        "alpha2Code": "PL",
+        "alpha3Code": "POL"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Zagreb",
+        "alpha2Code": "HR",
+        "alpha3Code": "HRV"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Europe/Zaporozhye",
+        "alpha2Code": "UA",
+        "alpha3Code": "UKR"
+    },
+    {
+        "gmtName": "UTC+02:00",
+        "gmtOffset": 7200,
+        "zoneName": "Europe/Zurich",
+        "alpha2Code": "CH",
+        "alpha3Code": "CHE"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Indian/Antananarivo",
+        "alpha2Code": "MG",
+        "alpha3Code": "MDG"
+    },
+    {
+        "gmtName": "UTC+06:00",
+        "gmtOffset": 21600,
+        "zoneName": "Indian/Chagos",
+        "alpha2Code": "IO",
+        "alpha3Code": "IOT"
+    },
+    {
+        "gmtName": "UTC+07:00",
+        "gmtOffset": 25200,
+        "zoneName": "Indian/Christmas",
+        "alpha2Code": "CX",
+        "alpha3Code": "CXR"
+    },
+    {
+        "gmtName": "UTC+06:30",
+        "gmtOffset": 23400,
+        "zoneName": "Indian/Cocos",
+        "alpha2Code": "CC",
+        "alpha3Code": "CCK"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Indian/Comoro",
+        "alpha2Code": "KM",
+        "alpha3Code": "COM"
+    },
+    {
+        "gmtName": "UTC+05:00",
+        "gmtOffset": 18000,
+        "zoneName": "Indian/Kerguelen",
+        "alpha2Code": "TF",
+        "alpha3Code": "ATF"
+    },
+    {
+        "gmtName": "UTC+04:00",
+        "gmtOffset": 14400,
+        "zoneName": "Indian/Mahe",
+        "alpha2Code": "SC",
+        "alpha3Code": "SYC"
+    },
+    {
+        "gmtName": "UTC+05:00",
+        "gmtOffset": 18000,
+        "zoneName": "Indian/Maldives",
+        "alpha2Code": "MV",
+        "alpha3Code": "MDV"
+    },
+    {
+        "gmtName": "UTC+04:00",
+        "gmtOffset": 14400,
+        "zoneName": "Indian/Mauritius",
+        "alpha2Code": "MU",
+        "alpha3Code": "MUS"
+    },
+    {
+        "gmtName": "UTC+03:00",
+        "gmtOffset": 10800,
+        "zoneName": "Indian/Mayotte",
+        "alpha2Code": "YT",
+        "alpha3Code": "MYT"
+    },
+    {
+        "gmtName": "UTC+04:00",
+        "gmtOffset": 14400,
+        "zoneName": "Indian/Reunion",
+        "alpha2Code": "RE",
+        "alpha3Code": "REU"
+    },
+    {
+        "gmtName": "UTC+13:00",
+        "gmtOffset": 46800,
+        "zoneName": "Pacific/Apia",
+        "alpha2Code": "WS",
+        "alpha3Code": "WSM"
+    },
+    {
+        "gmtName": "UTC+12:00",
+        "gmtOffset": 43200,
+        "zoneName": "Pacific/Auckland",
+        "alpha2Code": "NZ",
+        "alpha3Code": "NZL"
+    },
+    {
+        "gmtName": "UTC+11:00",
+        "gmtOffset": 39600,
+        "zoneName": "Pacific/Bougainville",
+        "alpha2Code": "PG",
+        "alpha3Code": "PNG"
+    },
+    {
+        "gmtName": "UTC+12:45",
+        "gmtOffset": 45900,
+        "zoneName": "Pacific/Chatham",
+        "alpha2Code": "NZ",
+        "alpha3Code": "NZL"
+    },
+    {
+        "gmtName": "UTC+10:00",
+        "gmtOffset": 36000,
+        "zoneName": "Pacific/Chuuk",
+        "alpha2Code": "FM",
+        "alpha3Code": "FSM"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "Pacific/Easter",
+        "alpha2Code": "CL",
+        "alpha3Code": "CHL"
+    },
+    {
+        "gmtName": "UTC+11:00",
+        "gmtOffset": 39600,
+        "zoneName": "Pacific/Efate",
+        "alpha2Code": "VU",
+        "alpha3Code": "VUT"
+    },
+    {
+        "gmtName": "UTC+13:00",
+        "gmtOffset": 46800,
+        "zoneName": "Pacific/Enderbury",
+        "alpha2Code": "KI",
+        "alpha3Code": "KIR"
+    },
+    {
+        "gmtName": "UTC+13:00",
+        "gmtOffset": 46800,
+        "zoneName": "Pacific/Fakaofo",
+        "alpha2Code": "TK",
+        "alpha3Code": "TKL"
+    },
+    {
+        "gmtName": "UTC+12:00",
+        "gmtOffset": 43200,
+        "zoneName": "Pacific/Fiji",
+        "alpha2Code": "FJ",
+        "alpha3Code": "FJI"
+    },
+    {
+        "gmtName": "UTC+12:00",
+        "gmtOffset": 43200,
+        "zoneName": "Pacific/Funafuti",
+        "alpha2Code": "TV",
+        "alpha3Code": "TUV"
+    },
+    {
+        "gmtName": "UTC-06:00",
+        "gmtOffset": -21600,
+        "zoneName": "Pacific/Galapagos",
+        "alpha2Code": "EC",
+        "alpha3Code": "ECU"
+    },
+    {
+        "gmtName": "UTC-09:00",
+        "gmtOffset": -32400,
+        "zoneName": "Pacific/Gambier",
+        "alpha2Code": "PF",
+        "alpha3Code": "PYF"
+    },
+    {
+        "gmtName": "UTC+11:00",
+        "gmtOffset": 39600,
+        "zoneName": "Pacific/Guadalcanal",
+        "alpha2Code": "SB",
+        "alpha3Code": "SLB"
+    },
+    {
+        "gmtName": "UTC+10:00",
+        "gmtOffset": 36000,
+        "zoneName": "Pacific/Guam",
+        "alpha2Code": "GU",
+        "alpha3Code": "GUM"
+    },
+    {
+        "gmtName": "UTC-10:00",
+        "gmtOffset": -36000,
+        "zoneName": "Pacific/Honolulu",
+        "alpha2Code": "US",
+        "alpha3Code": "USA"
+    },
+    {
+        "gmtName": "UTC+14:00",
+        "gmtOffset": 50400,
+        "zoneName": "Pacific/Kiritimati",
+        "alpha2Code": "KI",
+        "alpha3Code": "KIR"
+    },
+    {
+        "gmtName": "UTC+11:00",
+        "gmtOffset": 39600,
+        "zoneName": "Pacific/Kosrae",
+        "alpha2Code": "FM",
+        "alpha3Code": "FSM"
+    },
+    {
+        "gmtName": "UTC+12:00",
+        "gmtOffset": 43200,
+        "zoneName": "Pacific/Kwajalein",
+        "alpha2Code": "MH",
+        "alpha3Code": "MHL"
+    },
+    {
+        "gmtName": "UTC+12:00",
+        "gmtOffset": 43200,
+        "zoneName": "Pacific/Majuro",
+        "alpha2Code": "MH",
+        "alpha3Code": "MHL"
+    },
+    {
+        "gmtName": "UTC-09:30",
+        "gmtOffset": -34200,
+        "zoneName": "Pacific/Marquesas",
+        "alpha2Code": "PF",
+        "alpha3Code": "PYF"
+    },
+    {
+        "gmtName": "UTC-11:00",
+        "gmtOffset": -39600,
+        "zoneName": "Pacific/Midway",
+        "alpha2Code": "UM",
+        "alpha3Code": "UMI"
+    },
+    {
+        "gmtName": "UTC+12:00",
+        "gmtOffset": 43200,
+        "zoneName": "Pacific/Nauru",
+        "alpha2Code": "NR",
+        "alpha3Code": "NRU"
+    },
+    {
+        "gmtName": "UTC-11:00",
+        "gmtOffset": -39600,
+        "zoneName": "Pacific/Niue",
+        "alpha2Code": "NU",
+        "alpha3Code": "NIU"
+    },
+    {
+        "gmtName": "UTC+11:00",
+        "gmtOffset": 39600,
+        "zoneName": "Pacific/Norfolk",
+        "alpha2Code": "NF",
+        "alpha3Code": "NFK"
+    },
+    {
+        "gmtName": "UTC+11:00",
+        "gmtOffset": 39600,
+        "zoneName": "Pacific/Noumea",
+        "alpha2Code": "NC",
+        "alpha3Code": "NCL"
+    },
+    {
+        "gmtName": "UTC-11:00",
+        "gmtOffset": -39600,
+        "zoneName": "Pacific/Pago_Pago",
+        "alpha2Code": "AS",
+        "alpha3Code": "ASM"
+    },
+    {
+        "gmtName": "UTC+09:00",
+        "gmtOffset": 32400,
+        "zoneName": "Pacific/Palau",
+        "alpha2Code": "PW",
+        "alpha3Code": "PLW"
+    },
+    {
+        "gmtName": "UTC-08:00",
+        "gmtOffset": -28800,
+        "zoneName": "Pacific/Pitcairn",
+        "alpha2Code": "PN",
+        "alpha3Code": "PCN"
+    },
+    {
+        "gmtName": "UTC+11:00",
+        "gmtOffset": 39600,
+        "zoneName": "Pacific/Pohnpei",
+        "alpha2Code": "FM",
+        "alpha3Code": "FSM"
+    },
+    {
+        "gmtName": "UTC+10:00",
+        "gmtOffset": 36000,
+        "zoneName": "Pacific/Port_Moresby",
+        "alpha2Code": "PG",
+        "alpha3Code": "PNG"
+    },
+    {
+        "gmtName": "UTC-10:00",
+        "gmtOffset": -36000,
+        "zoneName": "Pacific/Rarotonga",
+        "alpha2Code": "CK",
+        "alpha3Code": "COK"
+    },
+    {
+        "gmtName": "UTC+10:00",
+        "gmtOffset": 36000,
+        "zoneName": "Pacific/Saipan",
+        "alpha2Code": "MP",
+        "alpha3Code": "MNP"
+    },
+    {
+        "gmtName": "UTC-10:00",
+        "gmtOffset": -36000,
+        "zoneName": "Pacific/Tahiti",
+        "alpha2Code": "PF",
+        "alpha3Code": "PYF"
+    },
+    {
+        "gmtName": "UTC+12:00",
+        "gmtOffset": 43200,
+        "zoneName": "Pacific/Tarawa",
+        "alpha2Code": "KI",
+        "alpha3Code": "KIR"
+    },
+    {
+        "gmtName": "UTC+13:00",
+        "gmtOffset": 46800,
+        "zoneName": "Pacific/Tongatapu",
+        "alpha2Code": "TO",
+        "alpha3Code": "TON"
+    },
+    {
+        "gmtName": "UTC+12:00",
+        "gmtOffset": 43200,
+        "zoneName": "Pacific/Wake",
+        "alpha2Code": "UM",
+        "alpha3Code": "UMI"
+    },
+    {
+        "gmtName": "UTC+12:00",
+        "gmtOffset": 43200,
+        "zoneName": "Pacific/Wallis",
+        "alpha2Code": "WF",
+        "alpha3Code": "WLF"
+    }
+]

@@ -1,0 +1,35 @@
+{
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "sourceMap": true,
+    "rootDir": "./src",
+    "outDir": "./build",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "allowJs": false,
+    "alwaysStrict": true,
+    "newLine": "LF",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "types": [
+      "reflect-metadata",
+      "node"
+    ],
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
+}

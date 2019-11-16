@@ -1,0 +1,3350 @@
+[
+    {
+        "type": 2,
+        "value": "test.com"
+    },
+    {
+        "type": 2,
+        "value": "yopmail.com"
+    },
+    {
+        "type": 2,
+        "value": "igmshop.ru"
+    },
+    {
+        "type": 2,
+        "value": "mailinator.com"
+    },
+    {
+        "type": 2,
+        "value": "mailforspam.com"
+    },
+    {
+        "type": 2,
+        "value": "sharklasers.com"
+    },
+    {
+        "type": 2,
+        "value": "dispostable.com"
+    },
+    {
+        "type": 2,
+        "value": "mishelmail.dyndns-mail.com"
+    },
+    {
+        "type": 2,
+        "value": "getadena.ru"
+    },
+    {
+        "type": 2,
+        "value": "rainmail.biz"
+    },
+    {
+        "type": 2,
+        "value": "mailblog.biz"
+    },
+    {
+        "type": 2,
+        "value": "postalmail.biz"
+    },
+    {
+        "type": 2,
+        "value": "ramblera.dyndns.biz"
+    },
+    {
+        "type": 2,
+        "value": "antireg.com"
+    },
+    {
+        "type": 2,
+        "value": "tempinbox.com"
+    },
+    {
+        "type": 2,
+        "value": "erikalka.dyndns.org"
+    },
+    {
+        "type": 2,
+        "value": "retuk.dyndns-pics.com"
+    },
+    {
+        "type": 2,
+        "value": "vert.dyndns.tv"
+    },
+    {
+        "type": 2,
+        "value": "mailspeed.ru"
+    },
+    {
+        "type": 2,
+        "value": "spam.su"
+    },
+    {
+        "type": 2,
+        "value": "freemail.dyndns-office.com"
+    },
+    {
+        "type": 2,
+        "value": "notemail.dyndns-free.com"
+    },
+    {
+        "type": 2,
+        "value": "mailru.dyndns-work.com"
+    },
+    {
+        "type": 2,
+        "value": "thismail.ru"
+    },
+    {
+        "type": 2,
+        "value": "rmqkr.net"
+    },
+    {
+        "type": 2,
+        "value": "spambog.com"
+    },
+    {
+        "type": 2,
+        "value": "unmail.ru"
+    },
+    {
+        "type": 2,
+        "value": "monstrcorp.dyndns.biz"
+    },
+    {
+        "type": 2,
+        "value": "epost.org.ua"
+    },
+    {
+        "type": 2,
+        "value": "hallo.dyndns-mail.com"
+    },
+    {
+        "type": 2,
+        "value": "vegas.dyndns-pics.com"
+    },
+    {
+        "type": 2,
+        "value": "temporamail.com"
+    },
+    {
+        "type": 2,
+        "value": "gnail.pw"
+    },
+    {
+        "type": 2,
+        "value": "checknew.pw"
+    },
+    {
+        "type": 2,
+        "value": "itrashmail.com"
+    },
+    {
+        "type": 2,
+        "value": "drdrb.net"
+    },
+    {
+        "type": 2,
+        "value": "uggsrock.com"
+    },
+    {
+        "type": 2,
+        "value": "owlpic.com"
+    },
+    {
+        "type": 2,
+        "value": "bofthew.com"
+    },
+    {
+        "type": 2,
+        "value": "kinarov.net"
+    },
+    {
+        "type": 2,
+        "value": "asdasd.ru"
+    },
+    {
+        "type": 2,
+        "value": "zoaxe.com"
+    },
+    {
+        "type": 2,
+        "value": "dontmail.net"
+    },
+    {
+        "type": 2,
+        "value": "coldemail.info"
+    },
+    {
+        "type": 2,
+        "value": "burstmail.info"
+    },
+    {
+        "type": 2,
+        "value": "solvemail.info"
+    },
+    {
+        "type": 2,
+        "value": "mailtemp.info"
+    },
+    {
+        "type": 2,
+        "value": "hopemail.biz"
+    },
+    {
+        "type": 2,
+        "value": "toomail.biz"
+    },
+    {
+        "type": 2,
+        "value": "mailrock.biz"
+    },
+    {
+        "type": 2,
+        "value": "mailpick.biz"
+    },
+    {
+        "type": 2,
+        "value": "mailcat.biz"
+    },
+    {
+        "type": 2,
+        "value": "nowmymail.com"
+    },
+    {
+        "type": 2,
+        "value": "yopmail.fr"
+    },
+    {
+        "type": 2,
+        "value": "yopmail.net"
+    },
+    {
+        "type": 2,
+        "value": "cool.fr.nf"
+    },
+    {
+        "type": 2,
+        "value": "jetable.fr.nf"
+    },
+    {
+        "type": 2,
+        "value": "nospam.ze.tc"
+    },
+    {
+        "type": 2,
+        "value": "nomail.xl.cx"
+    },
+    {
+        "type": 2,
+        "value": "mega.zik.dj"
+    },
+    {
+        "type": 2,
+        "value": "speed.1s.fr"
+    },
+    {
+        "type": 2,
+        "value": "courriel.fr.nf"
+    },
+    {
+        "type": 2,
+        "value": "moncourrier.fr.nf"
+    },
+    {
+        "type": 2,
+        "value": "monemail.fr.nf"
+    },
+    {
+        "type": 2,
+        "value": "monmail.fr.nf"
+    },
+    {
+        "type": 2,
+        "value": "spam4.me"
+    },
+    {
+        "type": 2,
+        "value": "10mail.org"
+    },
+    {
+        "type": 2,
+        "value": "guerrillamail.net"
+    },
+    {
+        "type": 2,
+        "value": "guerrillamail.org"
+    },
+    {
+        "type": 2,
+        "value": "grr.la"
+    },
+    {
+        "type": 2,
+        "value": "ssoia.com"
+    },
+    {
+        "type": 2,
+        "value": "guerrillamailblock.com"
+    },
+    {
+        "type": 2,
+        "value": "guerrillamail.biz"
+    },
+    {
+        "type": 2,
+        "value": "guerrillamail.de"
+    },
+    {
+        "type": 2,
+        "value": "walkmail.net"
+    },
+    {
+        "type": 2,
+        "value": "alivance.com"
+    },
+    {
+        "type": 2,
+        "value": "teleworm.us"
+    },
+    {
+        "type": 2,
+        "value": "einrot.com"
+    },
+    {
+        "type": 2,
+        "value": "fleckens.hu"
+    },
+    {
+        "type": 2,
+        "value": "cuvox.de"
+    },
+    {
+        "type": 2,
+        "value": "rhyta.com"
+    },
+    {
+        "type": 2,
+        "value": "dayrep.com"
+    },
+    {
+        "type": 2,
+        "value": "jourrapide.com"
+    },
+    {
+        "type": 2,
+        "value": "gustr.com"
+    },
+    {
+        "type": 2,
+        "value": "superrito.com"
+    },
+    {
+        "type": 2,
+        "value": "armyspy.com"
+    },
+    {
+        "type": 2,
+        "value": "yomail.info"
+    },
+    {
+        "type": 2,
+        "value": "flurred.com"
+    },
+    {
+        "type": 2,
+        "value": "kiois.com"
+    },
+    {
+        "type": 2,
+        "value": "soisz.com"
+    },
+    {
+        "type": 2,
+        "value": "qoika.com"
+    },
+    {
+        "type": 2,
+        "value": "toiea.com"
+    },
+    {
+        "type": 2,
+        "value": "dropmail.me"
+    },
+    {
+        "type": 2,
+        "value": "ckiso.com"
+    },
+    {
+        "type": 2,
+        "value": "trbvm.com"
+    },
+    {
+        "type": 2,
+        "value": "lackmail.net"
+    },
+    {
+        "type": 2,
+        "value": "bigprofessor.so"
+    },
+    {
+        "type": 2,
+        "value": "goeqa.com"
+    },
+    {
+        "type": 2,
+        "value": "haqed.com"
+    },
+    {
+        "type": 2,
+        "value": "mail.bccto.me"
+    },
+    {
+        "type": 2,
+        "value": "bccto.me"
+    },
+    {
+        "type": 2,
+        "value": "pecdo.com"
+    },
+    {
+        "type": 2,
+        "value": "drisd.com"
+    },
+    {
+        "type": 2,
+        "value": "binka.me"
+    },
+    {
+        "type": 2,
+        "value": "rootfest.net"
+    },
+    {
+        "type": 2,
+        "value": "emltmp.com"
+    },
+    {
+        "type": 2,
+        "value": "tverya.com"
+    },
+    {
+        "type": 2,
+        "value": "zainmax.net"
+    },
+    {
+        "type": 2,
+        "value": "fulvie.com"
+    },
+    {
+        "type": 2,
+        "value": "polyfaust.com"
+    },
+    {
+        "type": 2,
+        "value": "cartelera.org"
+    },
+    {
+        "type": 2,
+        "value": "hostcalls.com"
+    },
+    {
+        "type": 2,
+        "value": "30wave.com"
+    },
+    {
+        "type": 2,
+        "value": "vps30.com"
+    },
+    {
+        "type": 2,
+        "value": "nutpa.net"
+    },
+    {
+        "type": 2,
+        "value": "loan101.pro"
+    },
+    {
+        "type": 2,
+        "value": "go2usa.info"
+    },
+    {
+        "type": 2,
+        "value": "fun64.com"
+    },
+    {
+        "type": 2,
+        "value": "car101.pro"
+    },
+    {
+        "type": 2,
+        "value": "apkmd.com"
+    },
+    {
+        "type": 2,
+        "value": "mvrht.net"
+    },
+    {
+        "type": 2,
+        "value": "0-mail.com"
+    },
+    {
+        "type": 2,
+        "value": "0815.ru"
+    },
+    {
+        "type": 2,
+        "value": "0clickemail.com"
+    },
+    {
+        "type": 2,
+        "value": "0wnd.net"
+    },
+    {
+        "type": 2,
+        "value": "0wnd.org"
+    },
+    {
+        "type": 2,
+        "value": "10minutemail.com"
+    },
+    {
+        "type": 2,
+        "value": "20minutemail.com"
+    },
+    {
+        "type": 2,
+        "value": "2prong.com"
+    },
+    {
+        "type": 2,
+        "value": "30minutemail.com"
+    },
+    {
+        "type": 2,
+        "value": "3d-painting.com"
+    },
+    {
+        "type": 2,
+        "value": "4warding.com"
+    },
+    {
+        "type": 2,
+        "value": "4warding.net"
+    },
+    {
+        "type": 2,
+        "value": "4warding.org"
+    },
+    {
+        "type": 2,
+        "value": "60minutemail.com"
+    },
+    {
+        "type": 2,
+        "value": "675hosting.com"
+    },
+    {
+        "type": 2,
+        "value": "675hosting.net"
+    },
+    {
+        "type": 2,
+        "value": "675hosting.org"
+    },
+    {
+        "type": 2,
+        "value": "6url.com"
+    },
+    {
+        "type": 2,
+        "value": "75hosting.com"
+    },
+    {
+        "type": 2,
+        "value": "75hosting.net"
+    },
+    {
+        "type": 2,
+        "value": "75hosting.org"
+    },
+    {
+        "type": 2,
+        "value": "7tags.com"
+    },
+    {
+        "type": 2,
+        "value": "9ox.net"
+    },
+    {
+        "type": 2,
+        "value": "a-bc.net"
+    },
+    {
+        "type": 2,
+        "value": "afrobacon.com"
+    },
+    {
+        "type": 2,
+        "value": "ajaxapp.net"
+    },
+    {
+        "type": 2,
+        "value": "amilegit.com"
+    },
+    {
+        "type": 2,
+        "value": "amiri.net"
+    },
+    {
+        "type": 2,
+        "value": "amiriindustries.com"
+    },
+    {
+        "type": 2,
+        "value": "anonbox.net"
+    },
+    {
+        "type": 2,
+        "value": "anonymbox.com"
+    },
+    {
+        "type": 2,
+        "value": "antichef.com"
+    },
+    {
+        "type": 2,
+        "value": "antichef.net"
+    },
+    {
+        "type": 2,
+        "value": "antispam.de"
+    },
+    {
+        "type": 2,
+        "value": "baxomale.ht.cx"
+    },
+    {
+        "type": 2,
+        "value": "beefmilk.com"
+    },
+    {
+        "type": 2,
+        "value": "binkmail.com"
+    },
+    {
+        "type": 2,
+        "value": "bio-muesli.net"
+    },
+    {
+        "type": 2,
+        "value": "bobmail.info"
+    },
+    {
+        "type": 2,
+        "value": "bodhi.lawlita.com"
+    },
+    {
+        "type": 2,
+        "value": "brefmail.com"
+    },
+    {
+        "type": 2,
+        "value": "broadbandninja.com"
+    },
+    {
+        "type": 2,
+        "value": "bsnow.net"
+    },
+    {
+        "type": 2,
+        "value": "bugmenot.com"
+    },
+    {
+        "type": 2,
+        "value": "bumpymail.com"
+    },
+    {
+        "type": 2,
+        "value": "casualdx.com"
+    },
+    {
+        "type": 2,
+        "value": "centermail.com"
+    },
+    {
+        "type": 2,
+        "value": "centermail.net"
+    },
+    {
+        "type": 2,
+        "value": "chogmail.com"
+    },
+    {
+        "type": 2,
+        "value": "choicemail1.com"
+    },
+    {
+        "type": 2,
+        "value": "correo.blogos.net"
+    },
+    {
+        "type": 2,
+        "value": "cosmorph.com"
+    },
+    {
+        "type": 2,
+        "value": "courrieltemporaire.com"
+    },
+    {
+        "type": 2,
+        "value": "cubiclink.com"
+    },
+    {
+        "type": 2,
+        "value": "curryworld.de"
+    },
+    {
+        "type": 2,
+        "value": "cust.in"
+    },
+    {
+        "type": 2,
+        "value": "dacoolest.com"
+    },
+    {
+        "type": 2,
+        "value": "dandikmail.com"
+    },
+    {
+        "type": 2,
+        "value": "deadaddress.com"
+    },
+    {
+        "type": 2,
+        "value": "deadspam.com"
+    },
+    {
+        "type": 2,
+        "value": "despam.it"
+    },
+    {
+        "type": 2,
+        "value": "despammed.com"
+    },
+    {
+        "type": 2,
+        "value": "devnullmail.com"
+    },
+    {
+        "type": 2,
+        "value": "dfgh.net"
+    },
+    {
+        "type": 2,
+        "value": "digitalsanctuary.com"
+    },
+    {
+        "type": 2,
+        "value": "discardmail.com"
+    },
+    {
+        "type": 2,
+        "value": "discardmail.de"
+    },
+    {
+        "type": 2,
+        "value": "disposableaddress.com"
+    },
+    {
+        "type": 2,
+        "value": "disposeamail.com"
+    },
+    {
+        "type": 2,
+        "value": "disposemail.com"
+    },
+    {
+        "type": 2,
+        "value": "dm.w3internet.co.ukexample.com"
+    },
+    {
+        "type": 2,
+        "value": "dodgeit.com"
+    },
+    {
+        "type": 2,
+        "value": "dodgit.com"
+    },
+    {
+        "type": 2,
+        "value": "dodgit.org"
+    },
+    {
+        "type": 2,
+        "value": "donemail.ru"
+    },
+    {
+        "type": 2,
+        "value": "dontreg.com"
+    },
+    {
+        "type": 2,
+        "value": "dontsendmespam.de"
+    },
+    {
+        "type": 2,
+        "value": "dump-email.info"
+    },
+    {
+        "type": 2,
+        "value": "dumpandjunk.com"
+    },
+    {
+        "type": 2,
+        "value": "dumpmail.de"
+    },
+    {
+        "type": 2,
+        "value": "dumpyemail.com"
+    },
+    {
+        "type": 2,
+        "value": "e4ward.com"
+    },
+    {
+        "type": 2,
+        "value": "email60.com"
+    },
+    {
+        "type": 2,
+        "value": "emaildienst.de"
+    },
+    {
+        "type": 2,
+        "value": "emailias.com"
+    },
+    {
+        "type": 2,
+        "value": "emailigo.de"
+    },
+    {
+        "type": 2,
+        "value": "emailinfive.com"
+    },
+    {
+        "type": 2,
+        "value": "emailmiser.com"
+    },
+    {
+        "type": 2,
+        "value": "emailsensei.com"
+    },
+    {
+        "type": 2,
+        "value": "emailtemporario.com.br"
+    },
+    {
+        "type": 2,
+        "value": "emailto.de"
+    },
+    {
+        "type": 2,
+        "value": "emailwarden.com"
+    },
+    {
+        "type": 2,
+        "value": "emailx.at.hm"
+    },
+    {
+        "type": 2,
+        "value": "emailxfer.com"
+    },
+    {
+        "type": 2,
+        "value": "emz.net"
+    },
+    {
+        "type": 2,
+        "value": "enterto.com"
+    },
+    {
+        "type": 2,
+        "value": "ephemail.net"
+    },
+    {
+        "type": 2,
+        "value": "etranquil.com"
+    },
+    {
+        "type": 2,
+        "value": "etranquil.net"
+    },
+    {
+        "type": 2,
+        "value": "etranquil.org"
+    },
+    {
+        "type": 2,
+        "value": "explodemail.com"
+    },
+    {
+        "type": 2,
+        "value": "fakeinbox.com"
+    },
+    {
+        "type": 2,
+        "value": "fakeinformation.com"
+    },
+    {
+        "type": 2,
+        "value": "fastacura.com"
+    },
+    {
+        "type": 2,
+        "value": "fastchevy.com"
+    },
+    {
+        "type": 2,
+        "value": "fastchrysler.com"
+    },
+    {
+        "type": 2,
+        "value": "fastkawasaki.com"
+    },
+    {
+        "type": 2,
+        "value": "fastmazda.com"
+    },
+    {
+        "type": 2,
+        "value": "fastmitsubishi.com"
+    },
+    {
+        "type": 2,
+        "value": "fastnissan.com"
+    },
+    {
+        "type": 2,
+        "value": "fastsubaru.com"
+    },
+    {
+        "type": 2,
+        "value": "fastsuzuki.com"
+    },
+    {
+        "type": 2,
+        "value": "fasttoyota.com"
+    },
+    {
+        "type": 2,
+        "value": "fastyamaha.com"
+    },
+    {
+        "type": 2,
+        "value": "filzmail.com"
+    },
+    {
+        "type": 2,
+        "value": "fizmail.com"
+    },
+    {
+        "type": 2,
+        "value": "fr33mail.info"
+    },
+    {
+        "type": 2,
+        "value": "frapmail.com"
+    },
+    {
+        "type": 2,
+        "value": "front14.org"
+    },
+    {
+        "type": 2,
+        "value": "fux0ringduh.com"
+    },
+    {
+        "type": 2,
+        "value": "garliclife.com"
+    },
+    {
+        "type": 2,
+        "value": "get1mail.com"
+    },
+    {
+        "type": 2,
+        "value": "get2mail.fr"
+    },
+    {
+        "type": 2,
+        "value": "getonemail.com"
+    },
+    {
+        "type": 2,
+        "value": "getonemail.net"
+    },
+    {
+        "type": 2,
+        "value": "ghosttexter.de"
+    },
+    {
+        "type": 2,
+        "value": "girlsundertheinfluence.com"
+    },
+    {
+        "type": 2,
+        "value": "gishpuppy.com"
+    },
+    {
+        "type": 2,
+        "value": "gowikibooks.com"
+    },
+    {
+        "type": 2,
+        "value": "gowikicampus.com"
+    },
+    {
+        "type": 2,
+        "value": "gowikicars.com"
+    },
+    {
+        "type": 2,
+        "value": "gowikifilms.com"
+    },
+    {
+        "type": 2,
+        "value": "gowikigames.com"
+    },
+    {
+        "type": 2,
+        "value": "gowikimusic.com"
+    },
+    {
+        "type": 2,
+        "value": "gowikinetwork.com"
+    },
+    {
+        "type": 2,
+        "value": "gowikitravel.com"
+    },
+    {
+        "type": 2,
+        "value": "gowikitv.com"
+    },
+    {
+        "type": 2,
+        "value": "great-host.in"
+    },
+    {
+        "type": 2,
+        "value": "greensloth.com"
+    },
+    {
+        "type": 2,
+        "value": "gsrv.co.uk"
+    },
+    {
+        "type": 2,
+        "value": "guerillamail.biz"
+    },
+    {
+        "type": 2,
+        "value": "guerillamail.com"
+    },
+    {
+        "type": 2,
+        "value": "guerillamail.net"
+    },
+    {
+        "type": 2,
+        "value": "guerillamail.org"
+    },
+    {
+        "type": 2,
+        "value": "guerrillamail.com"
+    },
+    {
+        "type": 2,
+        "value": "h.mintemail.com"
+    },
+    {
+        "type": 2,
+        "value": "h8s.org"
+    },
+    {
+        "type": 2,
+        "value": "haltospam.com"
+    },
+    {
+        "type": 2,
+        "value": "hatespam.org"
+    },
+    {
+        "type": 2,
+        "value": "hidemail.de"
+    },
+    {
+        "type": 2,
+        "value": "hochsitze.com"
+    },
+    {
+        "type": 2,
+        "value": "hotpop.com"
+    },
+    {
+        "type": 2,
+        "value": "hulapla.de"
+    },
+    {
+        "type": 2,
+        "value": "ieatspam.eu"
+    },
+    {
+        "type": 2,
+        "value": "ieatspam.info"
+    },
+    {
+        "type": 2,
+        "value": "ihateyoualot.info"
+    },
+    {
+        "type": 2,
+        "value": "iheartspam.org"
+    },
+    {
+        "type": 2,
+        "value": "imails.info"
+    },
+    {
+        "type": 2,
+        "value": "inboxclean.com"
+    },
+    {
+        "type": 2,
+        "value": "inboxclean.org"
+    },
+    {
+        "type": 2,
+        "value": "incognitomail.com"
+    },
+    {
+        "type": 2,
+        "value": "incognitomail.net"
+    },
+    {
+        "type": 2,
+        "value": "incognitomail.org"
+    },
+    {
+        "type": 2,
+        "value": "insorg-mail.info"
+    },
+    {
+        "type": 2,
+        "value": "ipoo.org"
+    },
+    {
+        "type": 2,
+        "value": "irish2me.com"
+    },
+    {
+        "type": 2,
+        "value": "iwi.net"
+    },
+    {
+        "type": 2,
+        "value": "jetable.com"
+    },
+    {
+        "type": 2,
+        "value": "jetable.net"
+    },
+    {
+        "type": 2,
+        "value": "jetable.org"
+    },
+    {
+        "type": 2,
+        "value": "jnxjn.com"
+    },
+    {
+        "type": 2,
+        "value": "junk1e.com"
+    },
+    {
+        "type": 2,
+        "value": "kasmail.com"
+    },
+    {
+        "type": 2,
+        "value": "kaspop.com"
+    },
+    {
+        "type": 2,
+        "value": "keepmymail.com"
+    },
+    {
+        "type": 2,
+        "value": "killmail.com"
+    },
+    {
+        "type": 2,
+        "value": "killmail.net"
+    },
+    {
+        "type": 2,
+        "value": "kir.ch.tc"
+    },
+    {
+        "type": 2,
+        "value": "klassmaster.com"
+    },
+    {
+        "type": 2,
+        "value": "klassmaster.net"
+    },
+    {
+        "type": 2,
+        "value": "klzlk.com"
+    },
+    {
+        "type": 2,
+        "value": "kulturbetrieb.info"
+    },
+    {
+        "type": 2,
+        "value": "kurzepost.de"
+    },
+    {
+        "type": 2,
+        "value": "letthemeatspam.com"
+    },
+    {
+        "type": 2,
+        "value": "lhsdv.com"
+    },
+    {
+        "type": 2,
+        "value": "lifebyfood.com"
+    },
+    {
+        "type": 2,
+        "value": "link2mail.net"
+    },
+    {
+        "type": 2,
+        "value": "litedrop.com"
+    },
+    {
+        "type": 2,
+        "value": "lol.ovpn.to"
+    },
+    {
+        "type": 2,
+        "value": "lookugly.com"
+    },
+    {
+        "type": 2,
+        "value": "lopl.co.cc"
+    },
+    {
+        "type": 2,
+        "value": "lortemail.dk"
+    },
+    {
+        "type": 2,
+        "value": "lr78.com"
+    },
+    {
+        "type": 2,
+        "value": "m4ilweb.info"
+    },
+    {
+        "type": 2,
+        "value": "maboard.com"
+    },
+    {
+        "type": 2,
+        "value": "mail-temporaire.fr"
+    },
+    {
+        "type": 2,
+        "value": "mail.by"
+    },
+    {
+        "type": 2,
+        "value": "mail.mezimages.net"
+    },
+    {
+        "type": 2,
+        "value": "mail2rss.org"
+    },
+    {
+        "type": 2,
+        "value": "mail333.com"
+    },
+    {
+        "type": 2,
+        "value": "mail4trash.com"
+    },
+    {
+        "type": 2,
+        "value": "mailbidon.com"
+    },
+    {
+        "type": 2,
+        "value": "mailblocks.com"
+    },
+    {
+        "type": 2,
+        "value": "mailcatch.com"
+    },
+    {
+        "type": 2,
+        "value": "maileater.com"
+    },
+    {
+        "type": 2,
+        "value": "mailexpire.com"
+    },
+    {
+        "type": 2,
+        "value": "mailfreeonline.com"
+    },
+    {
+        "type": 2,
+        "value": "mailin8r.com"
+    },
+    {
+        "type": 2,
+        "value": "mailinater.com"
+    },
+    {
+        "type": 2,
+        "value": "mailinator.net"
+    },
+    {
+        "type": 2,
+        "value": "mailinator2.com"
+    },
+    {
+        "type": 2,
+        "value": "mailincubator.com"
+    },
+    {
+        "type": 2,
+        "value": "mailme.ir"
+    },
+    {
+        "type": 2,
+        "value": "mailme.lv"
+    },
+    {
+        "type": 2,
+        "value": "mailmetrash.com"
+    },
+    {
+        "type": 2,
+        "value": "mailmoat.com"
+    },
+    {
+        "type": 2,
+        "value": "mailnator.com"
+    },
+    {
+        "type": 2,
+        "value": "mailnesia.com"
+    },
+    {
+        "type": 2,
+        "value": "mailnull.com"
+    },
+    {
+        "type": 2,
+        "value": "mailshell.com"
+    },
+    {
+        "type": 2,
+        "value": "mailsiphon.com"
+    },
+    {
+        "type": 2,
+        "value": "mailslite.com"
+    },
+    {
+        "type": 2,
+        "value": "mailzilla.com"
+    },
+    {
+        "type": 2,
+        "value": "mailzilla.org"
+    },
+    {
+        "type": 2,
+        "value": "mbx.cc"
+    },
+    {
+        "type": 2,
+        "value": "meinspamschutz.de"
+    },
+    {
+        "type": 2,
+        "value": "meltmail.com"
+    },
+    {
+        "type": 2,
+        "value": "messagebeamer.de"
+    },
+    {
+        "type": 2,
+        "value": "mierdamail.com"
+    },
+    {
+        "type": 2,
+        "value": "mintemail.com"
+    },
+    {
+        "type": 2,
+        "value": "moburl.com"
+    },
+    {
+        "type": 2,
+        "value": "msa.minsmail.com"
+    },
+    {
+        "type": 2,
+        "value": "mt2009.com"
+    },
+    {
+        "type": 2,
+        "value": "mx0.wwwnew.eu"
+    },
+    {
+        "type": 2,
+        "value": "mycleaninbox.net"
+    },
+    {
+        "type": 2,
+        "value": "mypartyclip.de"
+    },
+    {
+        "type": 2,
+        "value": "myphantomemail.com"
+    },
+    {
+        "type": 2,
+        "value": "myspaceinc.com"
+    },
+    {
+        "type": 2,
+        "value": "myspaceinc.net"
+    },
+    {
+        "type": 2,
+        "value": "myspaceinc.org"
+    },
+    {
+        "type": 2,
+        "value": "myspacepimpedup.com"
+    },
+    {
+        "type": 2,
+        "value": "myspamless.com"
+    },
+    {
+        "type": 2,
+        "value": "mytrashmail.com"
+    },
+    {
+        "type": 2,
+        "value": "neomailbox.com"
+    },
+    {
+        "type": 2,
+        "value": "nepwk.com"
+    },
+    {
+        "type": 2,
+        "value": "nervmich.net"
+    },
+    {
+        "type": 2,
+        "value": "nervtmich.net"
+    },
+    {
+        "type": 2,
+        "value": "netmails.com"
+    },
+    {
+        "type": 2,
+        "value": "netmails.net"
+    },
+    {
+        "type": 2,
+        "value": "netzidiot.de"
+    },
+    {
+        "type": 2,
+        "value": "neverbox.com"
+    },
+    {
+        "type": 2,
+        "value": "no-spam.ws"
+    },
+    {
+        "type": 2,
+        "value": "nobulk.com"
+    },
+    {
+        "type": 2,
+        "value": "noclickemail.com"
+    },
+    {
+        "type": 2,
+        "value": "nogmailspam.info"
+    },
+    {
+        "type": 2,
+        "value": "nomail2me.com"
+    },
+    {
+        "type": 2,
+        "value": "nomorespamemails.com"
+    },
+    {
+        "type": 2,
+        "value": "nospam4.us"
+    },
+    {
+        "type": 2,
+        "value": "nospamfor.us"
+    },
+    {
+        "type": 2,
+        "value": "nospamthanks.info"
+    },
+    {
+        "type": 2,
+        "value": "notmailinator.com"
+    },
+    {
+        "type": 2,
+        "value": "nurfuerspam.de"
+    },
+    {
+        "type": 2,
+        "value": "nus.edu.sg"
+    },
+    {
+        "type": 2,
+        "value": "nwldx.com"
+    },
+    {
+        "type": 2,
+        "value": "objectmail.com"
+    },
+    {
+        "type": 2,
+        "value": "obobbo.com"
+    },
+    {
+        "type": 2,
+        "value": "oneoffemail.com"
+    },
+    {
+        "type": 2,
+        "value": "onewaymail.com"
+    },
+    {
+        "type": 2,
+        "value": "online.ms"
+    },
+    {
+        "type": 2,
+        "value": "oopi.org"
+    },
+    {
+        "type": 2,
+        "value": "ordinaryamerican.net"
+    },
+    {
+        "type": 2,
+        "value": "otherinbox.com"
+    },
+    {
+        "type": 2,
+        "value": "ourklips.com"
+    },
+    {
+        "type": 2,
+        "value": "outlawspam.com"
+    },
+    {
+        "type": 2,
+        "value": "ovpn.to"
+    },
+    {
+        "type": 2,
+        "value": "pancakemail.com"
+    },
+    {
+        "type": 2,
+        "value": "pimpedupmyspace.com"
+    },
+    {
+        "type": 2,
+        "value": "pjjkp.com"
+    },
+    {
+        "type": 2,
+        "value": "politikerclub.de"
+    },
+    {
+        "type": 2,
+        "value": "poofy.org"
+    },
+    {
+        "type": 2,
+        "value": "pookmail.com"
+    },
+    {
+        "type": 2,
+        "value": "privacy.net"
+    },
+    {
+        "type": 2,
+        "value": "proxymail.eu"
+    },
+    {
+        "type": 2,
+        "value": "prtnx.com"
+    },
+    {
+        "type": 2,
+        "value": "punkass.com"
+    },
+    {
+        "type": 2,
+        "value": "qq.com"
+    },
+    {
+        "type": 2,
+        "value": "quickinbox.com"
+    },
+    {
+        "type": 2,
+        "value": "rcpt.at"
+    },
+    {
+        "type": 2,
+        "value": "recode.me"
+    },
+    {
+        "type": 2,
+        "value": "recursor.net"
+    },
+    {
+        "type": 2,
+        "value": "regbypass.com"
+    },
+    {
+        "type": 2,
+        "value": "regbypass.comsafe-mail.net"
+    },
+    {
+        "type": 2,
+        "value": "rejectmail.com"
+    },
+    {
+        "type": 2,
+        "value": "rklips.com"
+    },
+    {
+        "type": 2,
+        "value": "rppkn.com"
+    },
+    {
+        "type": 2,
+        "value": "rtrtr.com"
+    },
+    {
+        "type": 2,
+        "value": "s0ny.net"
+    },
+    {
+        "type": 2,
+        "value": "safe-mail.net"
+    },
+    {
+        "type": 2,
+        "value": "safersignup.de"
+    },
+    {
+        "type": 2,
+        "value": "safetymail.info"
+    },
+    {
+        "type": 2,
+        "value": "safetypost.de"
+    },
+    {
+        "type": 2,
+        "value": "sandelf.de"
+    },
+    {
+        "type": 2,
+        "value": "saynotospams.com"
+    },
+    {
+        "type": 2,
+        "value": "selfdestructingmail.com"
+    },
+    {
+        "type": 2,
+        "value": "SendSpamHere.com"
+    },
+    {
+        "type": 2,
+        "value": "shiftmail.com"
+    },
+    {
+        "type": 2,
+        "value": "shitmail.me"
+    },
+    {
+        "type": 2,
+        "value": "shortmail.net"
+    },
+    {
+        "type": 2,
+        "value": "sibmail.com"
+    },
+    {
+        "type": 2,
+        "value": "skeefmail.com"
+    },
+    {
+        "type": 2,
+        "value": "slaskpost.se"
+    },
+    {
+        "type": 2,
+        "value": "slopsbox.com"
+    },
+    {
+        "type": 2,
+        "value": "smellfear.com"
+    },
+    {
+        "type": 2,
+        "value": "snakemail.com"
+    },
+    {
+        "type": 2,
+        "value": "sneakemail.com"
+    },
+    {
+        "type": 2,
+        "value": "sofimail.com"
+    },
+    {
+        "type": 2,
+        "value": "sofort-mail.de"
+    },
+    {
+        "type": 2,
+        "value": "sogetthis.com"
+    },
+    {
+        "type": 2,
+        "value": "soodonims.com"
+    },
+    {
+        "type": 2,
+        "value": "spam.la"
+    },
+    {
+        "type": 2,
+        "value": "spamavert.com"
+    },
+    {
+        "type": 2,
+        "value": "spambob.com"
+    },
+    {
+        "type": 2,
+        "value": "spambob.net"
+    },
+    {
+        "type": 2,
+        "value": "spambob.org"
+    },
+    {
+        "type": 2,
+        "value": "spambog.de"
+    },
+    {
+        "type": 2,
+        "value": "spambog.ru"
+    },
+    {
+        "type": 2,
+        "value": "spambox.info"
+    },
+    {
+        "type": 2,
+        "value": "spambox.irishspringrealty.com"
+    },
+    {
+        "type": 2,
+        "value": "spambox.us"
+    },
+    {
+        "type": 2,
+        "value": "spamcannon.com"
+    },
+    {
+        "type": 2,
+        "value": "spamcannon.net"
+    },
+    {
+        "type": 2,
+        "value": "spamcero.com"
+    },
+    {
+        "type": 2,
+        "value": "spamcon.org"
+    },
+    {
+        "type": 2,
+        "value": "spamcorptastic.com"
+    },
+    {
+        "type": 2,
+        "value": "spamcowboy.com"
+    },
+    {
+        "type": 2,
+        "value": "spamcowboy.net"
+    },
+    {
+        "type": 2,
+        "value": "spamcowboy.org"
+    },
+    {
+        "type": 2,
+        "value": "spamday.com"
+    },
+    {
+        "type": 2,
+        "value": "spamex.com"
+    },
+    {
+        "type": 2,
+        "value": "spamfree24.com"
+    },
+    {
+        "type": 2,
+        "value": "spamfree24.de"
+    },
+    {
+        "type": 2,
+        "value": "spamfree24.eu"
+    },
+    {
+        "type": 2,
+        "value": "spamfree24.info"
+    },
+    {
+        "type": 2,
+        "value": "spamfree24.net"
+    },
+    {
+        "type": 2,
+        "value": "spamfree24.org"
+    },
+    {
+        "type": 2,
+        "value": "spamgourmet.com"
+    },
+    {
+        "type": 2,
+        "value": "spamgourmet.net"
+    },
+    {
+        "type": 2,
+        "value": "spamgourmet.org"
+    },
+    {
+        "type": 2,
+        "value": "SpamHereLots.com"
+    },
+    {
+        "type": 2,
+        "value": "SpamHerePlease.com"
+    },
+    {
+        "type": 2,
+        "value": "spamhole.com"
+    },
+    {
+        "type": 2,
+        "value": "spamify.com"
+    },
+    {
+        "type": 2,
+        "value": "spaminator.de"
+    },
+    {
+        "type": 2,
+        "value": "spamkill.info"
+    },
+    {
+        "type": 2,
+        "value": "spaml.com"
+    },
+    {
+        "type": 2,
+        "value": "spaml.de"
+    },
+    {
+        "type": 2,
+        "value": "spammotel.com"
+    },
+    {
+        "type": 2,
+        "value": "spamobox.com"
+    },
+    {
+        "type": 2,
+        "value": "spamoff.de"
+    },
+    {
+        "type": 2,
+        "value": "spamslicer.com"
+    },
+    {
+        "type": 2,
+        "value": "spamspot.com"
+    },
+    {
+        "type": 2,
+        "value": "spamthis.co.uk"
+    },
+    {
+        "type": 2,
+        "value": "spamthisplease.com"
+    },
+    {
+        "type": 2,
+        "value": "spamtrail.com"
+    },
+    {
+        "type": 2,
+        "value": "supergreatmail.com"
+    },
+    {
+        "type": 2,
+        "value": "supermailer.jp"
+    },
+    {
+        "type": 2,
+        "value": "suremail.info"
+    },
+    {
+        "type": 2,
+        "value": "teewars.org"
+    },
+    {
+        "type": 2,
+        "value": "teleworm.com"
+    },
+    {
+        "type": 2,
+        "value": "tempalias.com"
+    },
+    {
+        "type": 2,
+        "value": "tempe-mail.com"
+    },
+    {
+        "type": 2,
+        "value": "tempemail.biz"
+    },
+    {
+        "type": 2,
+        "value": "tempemail.com"
+    },
+    {
+        "type": 2,
+        "value": "TempEMail.net"
+    },
+    {
+        "type": 2,
+        "value": "tempinbox.co.uk"
+    },
+    {
+        "type": 2,
+        "value": "tempmail.it"
+    },
+    {
+        "type": 2,
+        "value": "tempmail2.com"
+    },
+    {
+        "type": 2,
+        "value": "tempomail.fr"
+    },
+    {
+        "type": 2,
+        "value": "temporarily.de"
+    },
+    {
+        "type": 2,
+        "value": "temporarioemail.com.br"
+    },
+    {
+        "type": 2,
+        "value": "temporaryemail.net"
+    },
+    {
+        "type": 2,
+        "value": "temporaryforwarding.com"
+    },
+    {
+        "type": 2,
+        "value": "temporaryinbox.com"
+    },
+    {
+        "type": 2,
+        "value": "thanksnospam.info"
+    },
+    {
+        "type": 2,
+        "value": "thankyou2010.com"
+    },
+    {
+        "type": 2,
+        "value": "thisisnotmyrealemail.com"
+    },
+    {
+        "type": 2,
+        "value": "throwawayemailaddress.com"
+    },
+    {
+        "type": 2,
+        "value": "tilien.com"
+    },
+    {
+        "type": 2,
+        "value": "tmailinator.com"
+    },
+    {
+        "type": 2,
+        "value": "tradermail.info"
+    },
+    {
+        "type": 2,
+        "value": "trash-amil.com"
+    },
+    {
+        "type": 2,
+        "value": "trash-mail.at"
+    },
+    {
+        "type": 2,
+        "value": "trash-mail.com"
+    },
+    {
+        "type": 2,
+        "value": "trash-mail.de"
+    },
+    {
+        "type": 2,
+        "value": "trash2009.com"
+    },
+    {
+        "type": 2,
+        "value": "trashemail.de"
+    },
+    {
+        "type": 2,
+        "value": "trashmail.at"
+    },
+    {
+        "type": 2,
+        "value": "trashmail.com"
+    },
+    {
+        "type": 2,
+        "value": "trashmail.de"
+    },
+    {
+        "type": 2,
+        "value": "trashmail.me"
+    },
+    {
+        "type": 2,
+        "value": "trashmail.net"
+    },
+    {
+        "type": 2,
+        "value": "trashmail.org"
+    },
+    {
+        "type": 2,
+        "value": "trashmail.ws"
+    },
+    {
+        "type": 2,
+        "value": "trashmailer.com"
+    },
+    {
+        "type": 2,
+        "value": "trashymail.com"
+    },
+    {
+        "type": 2,
+        "value": "trashymail.net"
+    },
+    {
+        "type": 2,
+        "value": "trillianpro.com"
+    },
+    {
+        "type": 2,
+        "value": "turual.com"
+    },
+    {
+        "type": 2,
+        "value": "twinmail.de"
+    },
+    {
+        "type": 2,
+        "value": "tyldd.com"
+    },
+    {
+        "type": 2,
+        "value": "upliftnow.com"
+    },
+    {
+        "type": 2,
+        "value": "uplipht.com"
+    },
+    {
+        "type": 2,
+        "value": "venompen.com"
+    },
+    {
+        "type": 2,
+        "value": "veryrealemail.com"
+    },
+    {
+        "type": 2,
+        "value": "viditag.com"
+    },
+    {
+        "type": 2,
+        "value": "viewcastmedia.com"
+    },
+    {
+        "type": 2,
+        "value": "viewcastmedia.net"
+    },
+    {
+        "type": 2,
+        "value": "viewcastmedia.org"
+    },
+    {
+        "type": 2,
+        "value": "webm4il.info"
+    },
+    {
+        "type": 2,
+        "value": "wegwerfadresse.de"
+    },
+    {
+        "type": 2,
+        "value": "wegwerfemail.de"
+    },
+    {
+        "type": 2,
+        "value": "wegwerfmail.de"
+    },
+    {
+        "type": 2,
+        "value": "wegwerfmail.net"
+    },
+    {
+        "type": 2,
+        "value": "wegwerfmail.org"
+    },
+    {
+        "type": 2,
+        "value": "wetrainbayarea.com"
+    },
+    {
+        "type": 2,
+        "value": "wetrainbayarea.org"
+    },
+    {
+        "type": 2,
+        "value": "wh4f.org"
+    },
+    {
+        "type": 2,
+        "value": "whyspam.me"
+    },
+    {
+        "type": 2,
+        "value": "willselfdestruct.com"
+    },
+    {
+        "type": 2,
+        "value": "winemaven.info"
+    },
+    {
+        "type": 2,
+        "value": "wronghead.com"
+    },
+    {
+        "type": 2,
+        "value": "wuzup.net"
+    },
+    {
+        "type": 2,
+        "value": "wuzupmail.net"
+    },
+    {
+        "type": 2,
+        "value": "e4ward.com"
+    },
+    {
+        "type": 2,
+        "value": "gishpuppy.com"
+    },
+    {
+        "type": 2,
+        "value": "mailinator.com"
+    },
+    {
+        "type": 2,
+        "value": "wwwnew.eu"
+    },
+    {
+        "type": 2,
+        "value": "xagloo.com"
+    },
+    {
+        "type": 2,
+        "value": "xemaps.com"
+    },
+    {
+        "type": 2,
+        "value": "xents.com"
+    },
+    {
+        "type": 2,
+        "value": "xmaily.com"
+    },
+    {
+        "type": 2,
+        "value": "xoxy.net"
+    },
+    {
+        "type": 2,
+        "value": "yep.it"
+    },
+    {
+        "type": 2,
+        "value": "yogamaven.com"
+    },
+    {
+        "type": 2,
+        "value": "ypmail.webarnak.fr.eu.org"
+    },
+    {
+        "type": 2,
+        "value": "yuurok.com"
+    },
+    {
+        "type": 2,
+        "value": "zehnminutenmail.de"
+    },
+    {
+        "type": 2,
+        "value": "zippymail.info"
+    },
+    {
+        "type": 2,
+        "value": "zoemail.org"
+    },
+    {
+        "type": 2,
+        "value": "33mail.com"
+    },
+    {
+        "type": 2,
+        "value": "maildrop.cc"
+    },
+    {
+        "type": 2,
+        "value": "inboxalias.com"
+    },
+    {
+        "type": 2,
+        "value": "koszmail.pl"
+    },
+    {
+        "type": 2,
+        "value": "tagyourself.com"
+    },
+    {
+        "type": 2,
+        "value": "whatpaas.com"
+    },
+    {
+        "type": 2,
+        "value": "10minutemail.co.uk"
+    },
+    {
+        "type": 2,
+        "value": "lackmail.ru"
+    },
+    {
+        "type": 2,
+        "value": "drdrb.com"
+    },
+    {
+        "type": 2,
+        "value": "emeil.in"
+    },
+    {
+        "type": 2,
+        "value": "my10minutemail.com"
+    },
+    {
+        "type": 2,
+        "value": "20email.eu"
+    },
+    {
+        "type": 2,
+        "value": "pokemail.net"
+    },
+    {
+        "type": 2,
+        "value": "swift10minutemail.com"
+    },
+    {
+        "type": 2,
+        "value": "20mail.it"
+    },
+    {
+        "type": 2,
+        "value": "azmeil.tk"
+    },
+    {
+        "type": 2,
+        "value": "rhzla.com"
+    },
+    {
+        "type": 2,
+        "value": "throwam.com"
+    },
+    {
+        "type": 2,
+        "value": "mailfa.tk"
+    },
+    {
+        "type": 2,
+        "value": "ze.gally.jp"
+    },
+    {
+        "type": 2,
+        "value": "inbax.tk"
+    },
+    {
+        "type": 2,
+        "value": "sezet.com"
+    },
+    {
+        "type": 2,
+        "value": "smap4.me"
+    },
+    {
+        "type": 2,
+        "value": "hmamail.com"
+    },
+    {
+        "type": 2,
+        "value": "emeil.ir"
+    },
+    {
+        "type": 2,
+        "value": "niepodam.pl"
+    },
+    {
+        "type": 2,
+        "value": "cheaphub.net"
+    },
+    {
+        "type": 2,
+        "value": "mailfall.com"
+    },
+    {
+        "type": 2,
+        "value": "10minut.com.pl"
+    },
+    {
+        "type": 2,
+        "value": "ho3twwn.com"
+    },
+    {
+        "type": 2,
+        "value": "mailbox72.biz"
+    },
+    {
+        "type": 2,
+        "value": "trbvn.com"
+    },
+    {
+        "type": 2,
+        "value": "leeching.net"
+    },
+    {
+        "type": 2,
+        "value": "mailbox92.biz"
+    },
+    {
+        "type": 2,
+        "value": "parqueadero.work"
+    },
+    {
+        "type": 2,
+        "value": "zoho.com"
+    },
+    {
+        "type": 2,
+        "value": "gmx.es"
+    },
+    {
+        "type": 2,
+        "value": "gamil.com"
+    },
+    {
+        "type": 2,
+        "value": "outlouk.com"
+    },
+    {
+        "type": 2,
+        "value": "mohmal.com"
+    },
+    {
+        "type": 2,
+        "value": "autlook.com"
+    },
+    {
+        "type": 2,
+        "value": "uul.pl"
+    },
+    {
+        "type": 2,
+        "value": "homail.com"
+    },
+    {
+        "type": 2,
+        "value": "gamail.com"
+    },
+    {
+        "type": 2,
+        "value": "turoid.com"
+    },
+    {
+        "type": 2,
+        "value": "gmai.com"
+    },
+    {
+        "type": 2,
+        "value": "gmx.com"
+    },
+    {
+        "type": 2,
+        "value": "yomail.com"
+    },
+    {
+        "type": 2,
+        "value": "hotamil.com"
+    },
+    {
+        "type": 2,
+        "value": "outlok.com"
+    },
+    {
+        "type": 2,
+        "value": "oulook.com"
+    },
+    {
+        "type": 2,
+        "value": "gimail.com"
+    },
+    {
+        "type": 2,
+        "value": "hotmal.com"
+    },
+    {
+        "type": 2,
+        "value": "outluo.com"
+    },
+    {
+        "type": 2,
+        "value": "0ulook.com"
+    },
+    {
+        "type": 2,
+        "value": "yotmail.com"
+    },
+    {
+        "type": 2,
+        "value": "yopmail.co"
+    },
+    {
+        "type": 2,
+        "value": "outluk.com"
+    },
+    {
+        "type": 2,
+        "value": "autlook.es"
+    },
+    {
+        "type": 2,
+        "value": "gmial.com"
+    },
+    {
+        "type": 2,
+        "value": "htmail.com"
+    },
+    {
+        "type": 2,
+        "value": "gmail.com.co"
+    },
+    {
+        "type": 2,
+        "value": "outuok.com"
+    },
+    {
+        "type": 2,
+        "value": "yandex.com"
+    },
+    {
+        "type": 2,
+        "value": "protonmail.com"
+    },
+    {
+        "type": 2,
+        "value": "outloo.com"
+    },
+    {
+        "type": 2,
+        "value": "bk.ru"
+    },
+    {
+        "type": 2,
+        "value": "yopmai.com"
+    },
+    {
+        "type": 2,
+        "value": "autluok.com"
+    },
+    {
+        "type": 2,
+        "value": "yopail.com"
+    },
+    {
+        "type": 2,
+        "value": "otmail.com"
+    },
+    {
+        "type": 2,
+        "value": "topmail.com"
+    },
+    {
+        "type": 2,
+        "value": "hotmaill.com"
+    },
+    {
+        "type": 2,
+        "value": "envy17.com"
+    },
+    {
+        "type": 2,
+        "value": "latinchat.com"
+    },
+    {
+        "type": 2,
+        "value": "hotail.com"
+    },
+    {
+        "type": 2,
+        "value": "uotluok.com"
+    },
+    {
+        "type": 2,
+        "value": "gemail.com"
+    },
+    {
+        "type": 2,
+        "value": "ymail.com"
+    },
+    {
+        "type": 2,
+        "value": "otlook.es"
+    },
+    {
+        "type": 2,
+        "value": "zetmail.com"
+    },
+    {
+        "type": 2,
+        "value": "7.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "hornyalwary.top"
+    },
+    {
+        "type": 2,
+        "value": "temp-mail.pp.ua"
+    },
+    {
+        "type": 2,
+        "value": "6.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "holl.ga"
+    },
+    {
+        "type": 2,
+        "value": "x.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "pig.pp.ua"
+    },
+    {
+        "type": 2,
+        "value": "3.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "two.haddo.eu"
+    },
+    {
+        "type": 2,
+        "value": "7.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "emailfake.com"
+    },
+    {
+        "type": 2,
+        "value": "emailtea.com"
+    },
+    {
+        "type": 2,
+        "value": "riski.cf"
+    },
+    {
+        "type": 2,
+        "value": "yop.ze.cx"
+    },
+    {
+        "type": 2,
+        "value": "throwawaymail.pp.ua"
+    },
+    {
+        "type": 2,
+        "value": "fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "throwawaymail.uu.gl"
+    },
+    {
+        "type": 2,
+        "value": "ggg.pp.ua"
+    },
+    {
+        "type": 2,
+        "value": "sexyalwasmi.top"
+    },
+    {
+        "type": 2,
+        "value": "hash.pp.ua"
+    },
+    {
+        "type": 2,
+        "value": "indomina.cf"
+    },
+    {
+        "type": 2,
+        "value": "pulpmail.us"
+    },
+    {
+        "type": 2,
+        "value": "1000rebates.stream"
+    },
+    {
+        "type": 2,
+        "value": "qbfree.us"
+    },
+    {
+        "type": 2,
+        "value": "yopmail.biz.st"
+    },
+    {
+        "type": 2,
+        "value": "1.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "2.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "4.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "5.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "8.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "9.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "one.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "two.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "three.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "four.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "five.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "six.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "seven.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "eight.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "nine.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "one.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "two.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "three.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "four.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "five.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "six.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "seven.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "eight.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "nine.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "x.emailfake.ml"
+    },
+    {
+        "type": 2,
+        "value": "mailbox80.biz"
+    },
+    {
+        "type": 2,
+        "value": "latinmail.com"
+    },
+    {
+        "type": 2,
+        "value": "outluok.com"
+    },
+    {
+        "type": 2,
+        "value": "uu1.pl"
+    },
+    {
+        "type": 2,
+        "value": "figjs.com"
+    },
+    {
+        "type": 2,
+        "value": "fakemail.com"
+    },
+    {
+        "type": 2,
+        "value": "fakemail.net"
+    },
+    {
+        "type": 2,
+        "value": "locanto1.club"
+    },
+    {
+        "type": 2,
+        "value": "1.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "one.raikas77.eu"
+    },
+    {
+        "type": 2,
+        "value": "2000rebates.stream"
+    },
+    {
+        "type": 2,
+        "value": "8.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "9.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "2.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "3.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "4.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "5.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "6.fackme.gq"
+    },
+    {
+        "type": 2,
+        "value": "janproz.com"
+    },
+    {
+        "type": 2,
+        "value": "bestvpn.top"
+    },
+    {
+        "type": 2,
+        "value": "60-minuten-mail.de"
+    },
+    {
+        "type": 2,
+        "value": "p33.org"
+    },
+    {
+        "type": 2,
+        "value": "10vpn.info"
+    },
+    {
+        "type": 2,
+        "value": "oalsp.com"
+    },
+    {
+        "type": 2,
+        "value": "mailgov.info"
+    },
+    {
+        "type": 2,
+        "value": "doanart.com"
+    },
+    {
+        "type": 2,
+        "value": "tmpeml.info"
+    },
+    {
+        "type": 2,
+        "value": "wimsg.com"
+    },
+    {
+        "type": 2,
+        "value": "docmail.cz"
+    },
+    {
+        "type": 2,
+        "value": "tmpmail.net"
+    },
+    {
+        "type": 2,
+        "value": "migmail.pl"
+    },
+    {
+        "type": 2,
+        "value": "nbox.notif.me"
+    },
+    {
+        "type": 2,
+        "value": "junkmail.com"
+    },
+    {
+        "type": 1,
+        "value": "121212"
+    },
+    {
+        "type": 1,
+        "value": "123123"
+    },
+    {
+        "type": 1,
+        "value": "1234"
+    },
+    {
+        "type": 1,
+        "value": "12341234"
+    },
+    {
+        "type": 1,
+        "value": "12345"
+    },
+    {
+        "type": 1,
+        "value": "123456"
+    },
+    {
+        "type": 1,
+        "value": "1234567"
+    },
+    {
+        "type": 1,
+        "value": "12345678"
+    },
+    {
+        "type": 1,
+        "value": "123456789"
+    },
+    {
+        "type": 1,
+        "value": "1989"
+    },
+    {
+        "type": 1,
+        "value": "1990"
+    },
+    {
+        "type": 1,
+        "value": "1991"
+    },
+    {
+        "type": 1,
+        "value": "1992"
+    },
+    {
+        "type": 1,
+        "value": "1q2w3e"
+    },
+    {
+        "type": 1,
+        "value": "1qaz2wsx"
+    },
+    {
+        "type": 1,
+        "value": "654321"
+    },
+    {
+        "type": 1,
+        "value": "P@ssw0rd"
+    },
+    {
+        "type": 1,
+        "value": "Password"
+    },
+    {
+        "type": 1,
+        "value": "aaaaa"
+    },
+    {
+        "type": 1,
+        "value": "abc123"
+    },
+    {
+        "type": 1,
+        "value": "admin"
+    },
+    {
+        "type": 1,
+        "value": "admin123"
+    },
+    {
+        "type": 1,
+        "value": "amanda"
+    },
+    {
+        "type": 1,
+        "value": "andrea"
+    },
+    {
+        "type": 1,
+        "value": "andrew"
+    },
+    {
+        "type": 1,
+        "value": "asdf"
+    },
+    {
+        "type": 1,
+        "value": "ashley"
+    },
+    {
+        "type": 1,
+        "value": "asshole"
+    },
+    {
+        "type": 1,
+        "value": "banana"
+    },
+    {
+        "type": 1,
+        "value": "bandit"
+    },
+    {
+        "type": 1,
+        "value": "biteme"
+    },
+    {
+        "type": 1,
+        "value": "blahblah"
+    },
+    {
+        "type": 1,
+        "value": "buster"
+    },
+    {
+        "type": 1,
+        "value": "charlie"
+    },
+    {
+        "type": 1,
+        "value": "cheese"
+    },
+    {
+        "type": 1,
+        "value": "chelsea"
+    },
+    {
+        "type": 1,
+        "value": "computer"
+    },
+    {
+        "type": 1,
+        "value": "cookie"
+    },
+    {
+        "type": 1,
+        "value": "corvette"
+    },
+    {
+        "type": 1,
+        "value": "dallas"
+    },
+    {
+        "type": 1,
+        "value": "daniel"
+    },
+    {
+        "type": 1,
+        "value": "dragon"
+    },
+    {
+        "type": 1,
+        "value": "ferrari"
+    },
+    {
+        "type": 1,
+        "value": "football"
+    },
+    {
+        "type": 1,
+        "value": "freedom"
+    },
+    {
+        "type": 1,
+        "value": "fuckyou"
+    },
+    {
+        "type": 1,
+        "value": "george"
+    },
+    {
+        "type": 1,
+        "value": "ginger"
+    },
+    {
+        "type": 1,
+        "value": "golfer"
+    },
+    {
+        "type": 1,
+        "value": "harley"
+    },
+    {
+        "type": 1,
+        "value": "hello"
+    },
+    {
+        "type": 1,
+        "value": "hockey"
+    },
+    {
+        "type": 1,
+        "value": "hunter"
+    },
+    {
+        "type": 1,
+        "value": "iloveyou"
+    },
+    {
+        "type": 1,
+        "value": "jennifer"
+    },
+    {
+        "type": 1,
+        "value": "jessica"
+    },
+    {
+        "type": 1,
+        "value": "johsua"
+    },
+    {
+        "type": 1,
+        "value": "jordan"
+    },
+    {
+        "type": 1,
+        "value": "jordan23"
+    },
+    {
+        "type": 1,
+        "value": "killer"
+    },
+    {
+        "type": 1,
+        "value": "lakers"
+    },
+    {
+        "type": 1,
+        "value": "letmein"
+    },
+    {
+        "type": 1,
+        "value": "login"
+    },
+    {
+        "type": 1,
+        "value": "london"
+    },
+    {
+        "type": 1,
+        "value": "maggie"
+    },
+    {
+        "type": 1,
+        "value": "martin"
+    },
+    {
+        "type": 1,
+        "value": "maste"
+    },
+    {
+        "type": 1,
+        "value": "master"
+    },
+    {
+        "type": 1,
+        "value": "matthew"
+    },
+    {
+        "type": 1,
+        "value": "maverick"
+    },
+    {
+        "type": 1,
+        "value": "mercedes"
+    },
+    {
+        "type": 1,
+        "value": "merlin"
+    },
+    {
+        "type": 1,
+        "value": "michelle"
+    },
+    {
+        "type": 1,
+        "value": "monkey"
+    },
+    {
+        "type": 1,
+        "value": "nicole"
+    },
+    {
+        "type": 1,
+        "value": "p@ssw0rd"
+    },
+    {
+        "type": 1,
+        "value": "pass"
+    },
+    {
+        "type": 1,
+        "value": "passw0rd"
+    },
+    {
+        "type": 1,
+        "value": "passwor"
+    },
+    {
+        "type": 1,
+        "value": "password"
+    },
+    {
+        "type": 1,
+        "value": "password01"
+    },
+    {
+        "type": 1,
+        "value": "pepper"
+    },
+    {
+        "type": 1,
+        "value": "phoenix"
+    },
+    {
+        "type": 1,
+        "value": "pussy"
+    },
+    {
+        "type": 1,
+        "value": "qazwsx"
+    },
+    {
+        "type": 1,
+        "value": "querty"
+    },
+    {
+        "type": 1,
+        "value": "ranger"
+    },
+    {
+        "type": 1,
+        "value": "rangers"
+    },
+    {
+        "type": 1,
+        "value": "robert"
+    },
+    {
+        "type": 1,
+        "value": "soccer"
+    },
+    {
+        "type": 1,
+        "value": "solo"
+    },
+    {
+        "type": 1,
+        "value": "starwars"
+    },
+    {
+        "type": 1,
+        "value": "summer"
+    },
+    {
+        "type": 1,
+        "value": "sunshine"
+    },
+    {
+        "type": 1,
+        "value": "test"
+    },
+    {
+        "type": 1,
+        "value": "thunder"
+    },
+    {
+        "type": 1,
+        "value": "tigger"
+    },
+    {
+        "type": 1,
+        "value": "trustno1"
+    },
+    {
+        "type": 1,
+        "value": "welcome"
+    },
+    {
+        "type": 1,
+        "value": "whatever"
+    },
+    {
+        "type": 1,
+        "value": "william"
+    },
+    {
+        "type": 1,
+        "value": "yankees"
+    },
+    {
+        "type": 1,
+        "value": "zaq1zaq1"
+    }
+]
