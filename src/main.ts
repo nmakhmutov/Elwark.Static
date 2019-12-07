@@ -34,6 +34,6 @@ async function bootstrap() {
         .get(SeedService, { strict: true })
         .Seed();
 
-    await app.listen(process.env.SERVER_PORT!);
+    await app.listen(process.env.SERVER_PORT!, '0.0.0.0');
 }
 bootstrap();

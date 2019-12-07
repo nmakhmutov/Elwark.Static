@@ -121,3 +121,4 @@ typings/
 .dynamodb/
 
 public/images/random/
+docker-compose.local.yml
