@@ -9,6 +9,7 @@ export const databaseProviders = [
             const connection = () => mongoose.connect(process.env.MONGODB_URL!, {
                 user: process.env.MONGODB_USER,
                 pass: process.env.MONGODB_PASSWORD,
+                dbName: process.env.MONGODB_DATABASE_NAME,
                 useCreateIndex: true,
                 useNewUrlParser: true,
                 useFindAndModify: false,
