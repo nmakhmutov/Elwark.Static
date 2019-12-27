@@ -3,7 +3,7 @@ import { ValidationException } from '../../exeptions/validation.exception';
 import { LanguageDTO } from './language.dto';
 import { LanguageService } from './language.service';
 
-@Controller('language')
+@Controller('languages')
 export class LanguageController {
     constructor(private readonly languageService: LanguageService) { }
 

@@ -26,11 +26,13 @@ export const RESOLUTIONS = [
 
 export const MAX_IMAGES_COUNT = RESOLUTIONS.length * 30;
 
-export const IMAGE_FOLDER = join(__dirname, '..', '..', '..', 'public', 'images');
+export const PUBLIC_FOLDER = join(__dirname, '..', '..', '..', 'public')
+
+export const IMAGE_FOLDER = join(PUBLIC_FOLDER, 'images');
 
 export const IMAGE_RANDOM_FOLDER = join(IMAGE_FOLDER, 'random');
 
-export const ICONS_FOLDER = join(IMAGE_FOLDER, 'icons');
+export const ICONS_FOLDER = join(PUBLIC_FOLDER, 'icons');
 
 export const ADMIN_ICONS_FOLDER = join(ICONS_FOLDER, 'admin');
 

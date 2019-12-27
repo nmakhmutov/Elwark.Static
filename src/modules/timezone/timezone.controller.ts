@@ -3,7 +3,7 @@ import { ValidationException } from '../../exeptions/validation.exception';
 import { TimezoneDTO } from './timezone.dto';
 import { TimezoneService } from './timezone.service';
 
-@Controller('timezone')
+@Controller('timezones')
 export class TimezoneController {
     constructor(private readonly timezoneService: TimezoneService) { }
 

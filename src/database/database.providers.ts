@@ -13,7 +13,7 @@ export const databaseProviders = [
                 useCreateIndex: true,
                 useNewUrlParser: true,
                 useFindAndModify: false,
-                appname: 'elwark.static'
+                appname: 'elwark.storage'
             });
 
             mongoose.connection.on('connected', () => loggerService.info(`Mongoose default connection is open to , ${process.env.MONGODB_URL}`));

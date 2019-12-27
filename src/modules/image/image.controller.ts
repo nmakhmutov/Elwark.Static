@@ -14,7 +14,7 @@ import { RESOLUTIONS } from './image.constants';
 import { ImageOrientation, ImageResolution } from './image.model';
 import { ImageService } from './image.service';
 
-@Controller('image')
+@Controller('images')
 export class ImageController {
     constructor(private readonly imageService: ImageService) { }
 

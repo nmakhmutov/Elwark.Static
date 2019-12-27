@@ -2,9 +2,9 @@ version: '3.7'
 
 services:
 
-  static.api:
-    container_name: "static-api"
-    image: elwark/static.api:${TAG:-latest}
+  storage.api:
+    container_name: "storage-api"
+    image: elwark/storage.api:${TAG:-latest}
     build:
       context: .
       dockerfile: Dockerfile

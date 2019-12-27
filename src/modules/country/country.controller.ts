@@ -4,7 +4,7 @@ import { CountryDTO } from './country.dto';
 import { Country } from './country.interface';
 import { CountryService } from './country.service';
 
-@Controller('country')
+@Controller('countries')
 export class CountryController {
 
     constructor(private readonly countryService: CountryService) { }

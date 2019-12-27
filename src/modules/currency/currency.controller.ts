@@ -2,7 +2,7 @@ import { Controller, Get, Param } from '@nestjs/common';
 import { CurrencyDTO } from './currency.dto';
 import { CurrencyService } from './currency.service';
 
-@Controller('currency')
+@Controller('currencies')
 export class CurrencyController {
 
     constructor(private readonly currencyService: CurrencyService) { }

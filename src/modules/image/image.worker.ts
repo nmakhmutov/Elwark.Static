@@ -14,7 +14,7 @@ export class ImageWorker {
 
     constructor(private readonly loggerService: LoggerService, private readonly utils: UtilsService) {
         if (!existsSync(IMAGE_RANDOM_FOLDER))
-            mkdirSync(IMAGE_RANDOM_FOLDER);
+            mkdirSync(IMAGE_RANDOM_FOLDER, { recursive: true });
 
         readdir(IMAGE_RANDOM_FOLDER, async (_, files) => {
             let count = files.length;
