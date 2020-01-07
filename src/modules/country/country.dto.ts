@@ -24,7 +24,7 @@ export class CountryDTO {
     public regionalBlocs: CountryRegionalBlockDTO[];
     public subregion: string | undefined;
     public topLevelDomain: string[];
-    public translations: { [code: string]: CountryTranslationDTO };
+    public translations: CountryTranslationDTO[];
 
     constructor(country: Country) {
         this.alpha2Code = country.alpha2Code;
@@ -45,27 +45,25 @@ export class CountryDTO {
         this.name = new CountryNameDTO(
             country.name.common,
             country.name.official,
-            country.name.native
+            country.name.native.map((x) => new CountryTranslationDTO(x.language,  x.common, x.official))
         );
         this.region = country.region;
         this.timezones = country.timezones;
         this.regionalBlocs = country.regionalBlocs.map((x) => new CountryRegionalBlockDTO(x.acronym, x.name));
         this.subregion = country.subregion;
         this.topLevelDomain = country.topLevelDomain;
-        this.translations = country.translations;
+        this.translations = country.translations.map((x) => new CountryTranslationDTO(x.language, x.common, x.official));
     }
 }
 
 // tslint:disable-next-line: max-classes-per-file
 export class CountryTranslationDTO {
-    constructor(public common: string, public official: string) { }
+    constructor(public language: string, public common: string, public official: string) { }
 }
 
 // tslint:disable-next-line: max-classes-per-file
-export class CountryNameDTO extends CountryTranslationDTO {
-    constructor(common: string, official: string, public native: { [code: string]: CountryTranslationDTO }) {
-        super(common, official);
-    }
+export class CountryNameDTO {
+    constructor(public common: string, public official: string, public native: CountryTranslationDTO[]) { }
 }
 // tslint:disable-next-line: max-classes-per-file
 export class CountryRegionalBlockDTO {

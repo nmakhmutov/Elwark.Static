@@ -3,7 +3,7 @@ import { Model } from 'mongoose';
 import { ValidationException } from '../../exeptions/validation.exception';
 import { nameof } from '../../utils';
 import { COUNTRY_MODEL } from './country.constants';
-import { Country, CountryName } from './country.interface';
+import { Country, CountryTranslation } from './country.interface';
 
 @Injectable()
 export class CountryService {
@@ -13,6 +13,20 @@ export class CountryService {
         const result = await this.countryModel.find();
 
         return result;
+    }
+
+    public async getByCodes(codes: string[]): Promise<Country[]> {
+        const result = await this.countryModel.find({
+            $or: [
+                {[nameof<Country>('alpha2Code')]: {$in: codes}},
+                {[nameof<Country>('alpha3Code')]: {$in: codes}}
+            ]
+        });
+
+        if (result.length !== 0)
+            return result;
+
+        throw new NotFoundException(`Country with codes (${codes.join(', ')}) not found`);
     }
 
     public async getByAlpha2Code(code: string): Promise<Country> {
@@ -68,7 +82,7 @@ export class CountryService {
     public async getByCommonName(name: string): Promise<Country> {
         const result = await this.countryModel
             .findOne({
-                [nameof<Country>('name') + '.' + nameof<CountryName>('common')]: {
+                [nameof<Country>('name') + '.' + nameof<CountryTranslation>('common')]: {
                     $regex: new RegExp('^' + name + '$', 'i') // case insensitive
                 }
             });
