@@ -1,6 +1,7 @@
 import { Document } from 'mongoose';
 
-export interface CountryName {
+export interface CountryTranslation {
+    language: string;
     common: string;
     official: string;
 }
@@ -29,12 +30,12 @@ export interface Country extends Document {
     readonly name: {
         common: string;
         official: string;
-        native: { [code: string]: CountryName }
+        native: CountryTranslation[]
     };
     readonly timezones: string[];
     readonly region?: string;
     readonly regionalBlocs: RegionalBlock[];
     readonly subregion?: string;
     readonly topLevelDomain: string[];
-    readonly translations: { [code: string]: CountryName };
+    readonly translations: CountryTranslation[];
 }

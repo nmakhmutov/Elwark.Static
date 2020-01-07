@@ -1,4 +1,4 @@
-import { Controller, Get, Param } from '@nestjs/common';
+import { Controller, Get, Param, Query } from '@nestjs/common';
 import { ValidationException } from '../../exeptions/validation.exception';
 import { CountryDTO } from './country.dto';
 import { Country } from './country.interface';
@@ -10,8 +10,10 @@ export class CountryController {
     constructor(private readonly countryService: CountryService) { }
 
     @Get()
-    public async GetAll(): Promise<CountryDTO[]> {
-        const result = await this.countryService.getAll();
+    public async GetByCodes(@Query('codes') codes: string[]): Promise<CountryDTO[]> {
+        const result = codes
+            ? await this.countryService.getByCodes(codes)
+            : await this.countryService.getAll();
 
         return result.map((x) => new CountryDTO(x));
     }

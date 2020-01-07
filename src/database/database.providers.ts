@@ -13,6 +13,7 @@ export const databaseProviders = [
                 useCreateIndex: true,
                 useNewUrlParser: true,
                 useFindAndModify: false,
+                useUnifiedTopology: true,
                 appname: 'elwark.storage'
             });
 

@@ -82,13 +82,16 @@ export const CountrySchema = new Schema({
             type: String,
             required: true
         },
-        native: {
-            type: Map,
-            of: {
-                common: String,
-                official: String
-            }
-        }
+        native: [{
+            _id: false,
+            language: {
+                type: String,
+                required: true,
+                uppercase: true
+            },
+            common: String,
+            official: String
+        }]
     },
     timezones: {
         type: [String],
@@ -99,6 +102,7 @@ export const CountrySchema = new Schema({
     },
     regionalBlocs: {
         type: [{
+            _id: false,
             acronym: String,
             name: String
         }],
@@ -111,11 +115,14 @@ export const CountrySchema = new Schema({
         type: [String],
         default: []
     },
-    translations: {
-        type: Map,
-        of: {
-            common: String,
-            official: String
-        }
-    }
+    translations: [{
+        _id: false,
+        language: {
+            type: String,
+            required: true,
+            uppercase: true
+        },
+        common: String,
+        official: String
+    }]
 });
