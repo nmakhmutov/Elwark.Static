@@ -6,7 +6,7 @@ export const databaseProviders = [
     {
         provide: DATABASE_CONNECTION,
         useFactory: async (loggerService: LoggerService): Promise<typeof mongoose> => {
-            const connection = () => mongoose.connect(process.env.MONGODB_URL!, {
+            const connection = (): Promise<typeof mongoose> => mongoose.connect(process.env.MONGODB_URL!, {
                 user: process.env.MONGODB_USER,
                 pass: process.env.MONGODB_PASSWORD,
                 dbName: process.env.MONGODB_DATABASE_NAME,

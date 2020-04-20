@@ -8,21 +8,21 @@ export class TimezoneController {
     constructor(private readonly timezoneService: TimezoneService) { }
 
     @Get()
-    public async GetAll() {
+    public async GetAll(): Promise<TimezoneDTO[]> {
         const result = await this.timezoneService.getAll();
 
         return result.map((x) => new TimezoneDTO(x));
     }
 
     @Get('zone/:zone')
-    public async GetByZone(@Param('zone') zone: string) {
+    public async GetByZone(@Param('zone') zone: string): Promise<TimezoneDTO> {
         const result = await this.timezoneService.getByTimezone(zone);
 
         return new TimezoneDTO(result);
     }
 
     @Get('contry/:code')
-    public async GetByCode(@Param('code') code: string) {
+    public async GetByCode(@Param('code') code: string): Promise<TimezoneDTO[]> {
         let result;
         switch (code.length) {
             case 2:

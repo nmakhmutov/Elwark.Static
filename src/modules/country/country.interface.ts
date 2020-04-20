@@ -30,7 +30,7 @@ export interface Country extends Document {
     readonly name: {
         common: string;
         official: string;
-        native: CountryTranslation[]
+        native: CountryTranslation[];
     };
     readonly timezones: string[];
     readonly region?: string;

@@ -4,12 +4,12 @@ export class CurrencyDTO {
     public code: string;
     public decimalDigits: number;
     public name: {
-        singular: string,
-        plural: string
+        singular: string;
+        plural: string;
     };
     public symbol: {
-        common: string,
-        native: string
+        common: string;
+        native: string;
     };
 
     constructor(currency: Currency) {

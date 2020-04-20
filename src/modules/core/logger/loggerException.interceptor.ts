@@ -1,6 +1,5 @@
 import {
     BadGatewayException,
-    BadRequestException,
     CallHandler,
     ExecutionContext,
     HttpException,
@@ -16,9 +15,10 @@ export class HttpLoggerExceptionInterceptor implements NestInterceptor {
 
     constructor(private loggerService: LoggerService) { }
 
-    public intercept(context: ExecutionContext, next: CallHandler): Observable<any> {
+    public intercept(context: ExecutionContext, next: CallHandler): Observable<unknown> {
         return next.handle()
-            .pipe(catchError((err: any, cautch: Observable<any>) => {
+            // eslint-disable-next-line @typescript-eslint/no-unused-vars
+            .pipe(catchError((err: {}, cautch: Observable<unknown>) => {
                 if (err instanceof HttpException)
                     if (500 <= err.getStatus()) {
                         this.loggerService.error(`HttpException ${err.getStatus()}: ${err.message}`);

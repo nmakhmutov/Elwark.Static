@@ -9,7 +9,7 @@ import { ImageWorker } from './modules/image/image.worker';
 import { SeedModule } from './seed/seed.module';
 import { SeedService } from './seed/seed.service';
 
-async function bootstrap() {
+async function bootstrap(): Promise<void> {
     config();
 
     const app = await NestFactory.create<NestFastifyApplication>(
@@ -34,6 +34,6 @@ async function bootstrap() {
         .get(SeedService, { strict: true })
         .Seed();
 
-    await app.listenAsync(process.env.SERVER_PORT!, '0.0.0.0');
+    await app.listenAsync(process.env.SERVER_PORT || 3000, '0.0.0.0');
 }
 bootstrap();

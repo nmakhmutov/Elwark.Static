@@ -27,7 +27,7 @@ export class SeedService {
         @Inject(TIMEZONE_MODEL) private readonly timezoneModel: Model<Timezone>
     ) { }
 
-    public async Seed() {
+    public async Seed(): Promise<void> {
         const tasks: Array<Promise<void>> = [];
 
         if (await this.blacklistModel.countDocuments({}) === 0)

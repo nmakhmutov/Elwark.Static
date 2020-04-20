@@ -36,7 +36,7 @@ export class ImageService {
         );
     }
 
-    public getAdminImages = async () => {
+    public getAdminImages = async (): Promise<string[]> => {
         const files = await promisify(readdir)(ADMIN_ICONS_FOLDER);
         const images = files.map((file) => resolve(ADMIN_ICONS_FOLDER, file))
             .map((path) => path.substr(path.indexOf('public'), path.length).replace('public', 'static'));
@@ -44,6 +44,6 @@ export class ImageService {
         return images;
     }
 
-    public getResolutionByName = (name: ImageResolution, orientation: ImageOrientation = 'landscape') =>
+    public getResolutionByName = (name: ImageResolution, orientation: ImageOrientation = 'landscape'): ImageModel | undefined =>
         RESOLUTIONS.find((x) => x.name === name && x.orientation === orientation)
 }

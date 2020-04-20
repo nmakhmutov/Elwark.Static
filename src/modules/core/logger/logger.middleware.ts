@@ -5,10 +5,12 @@ import { LoggerService } from './logger.service';
 export class LoggerMiddleware implements NestMiddleware {
   constructor(private readonly loggerServise: LoggerService) { }
 
-  public use(req: Request, res: Response, next: () => void) {
-    this.loggerServise.info(`${req.method} ${req.url} ${(req as any).ip}`);
+  public use(req: unknown, res: Response, next: () => void): void {
+    const {method, url, ip, headers} = req as {method: string; url: string; ip: string; headers: JSON};
 
-    this.loggerServise.debug('HEADERS:\n' + JSON.stringify(req.headers, null, 4));
+    this.loggerServise.info(`${method} ${url} ${ip}`);
+
+    this.loggerServise.debug('HEADERS:\n' + JSON.stringify(headers, null, 4));
     next();
   }
 }

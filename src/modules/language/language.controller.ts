@@ -8,21 +8,21 @@ export class LanguageController {
     constructor(private readonly languageService: LanguageService) { }
 
     @Get()
-    public async Get() {
+    public async Get(): Promise<LanguageDTO[]> {
         const result = await this.languageService.getMain();
 
         return result.map((x) => new LanguageDTO(x));
     }
 
     @Get('full')
-    public async GetFull() {
+    public async GetFull(): Promise<LanguageDTO[]> {
         const result = await this.languageService.getAll();
 
         return result.map((x) => new LanguageDTO(x));
     }
 
     @Get('code/:code')
-    public async GetByCode(@Param('code') code: string) {
+    public async GetByCode(@Param('code') code: string): Promise<LanguageDTO>{
         let result;
 
         switch (code.length) {

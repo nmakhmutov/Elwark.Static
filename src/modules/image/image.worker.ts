@@ -26,8 +26,8 @@ export class ImageWorker {
     public Start(): void {
         this.loggerService.info(`Starting ${ImageWorker.name}`);
 
-        setInterval(() => this.loadImages(), this.milliseconds(0, 9, 0));
-        setInterval(() => this.deleteImages(), this.milliseconds(0, 11, 0));
+        setInterval(() => this.loadImages(), this.milliseconds(1, 13, 0));
+        setInterval(() => this.deleteImages(), this.milliseconds(0, 41, 0));
     }
 
     private loadImages = async (): Promise<number> => {
@@ -78,7 +78,7 @@ export class ImageWorker {
 
     private milliseconds = (h: number, m: number, s: number): number => ((h * 60 * 60 + m * 60 + s) * 1000);
 
-    private getRandomImage = async (width: number, height: number) => {
+    private getRandomImage = async (width: number, height: number): Promise<Buffer> => {
         const providers = [
             `http://picsum.photos/${width}/${height}/?random`,
 
@@ -93,6 +93,6 @@ export class ImageWorker {
         this.loggerService.info(`Start loading image from ${provider}`);
 
         return get(provider, { resolveWithFullResponse: true, encoding: null })
-            .then((res: any) => Buffer.from(res.body));
+            .then((res: {body: ArrayBuffer}) => Buffer.from(res.body));
     }
 }

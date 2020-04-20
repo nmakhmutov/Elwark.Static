@@ -1,11 +1,11 @@
 import { format } from 'logform';
-import { createLogger, transports } from 'winston';
+import { createLogger, transports, Logger } from 'winston';
 import { LOGGER_WINSTON_PROVIDER } from './logger.constants';
 
 export const loggerProviders = [
   {
     provide: LOGGER_WINSTON_PROVIDER,
-    useFactory: () => {
+    useFactory: (): Logger => {
       const LOG_LEVEL = process.env.LOG_LEVEL;
 
       return createLogger({

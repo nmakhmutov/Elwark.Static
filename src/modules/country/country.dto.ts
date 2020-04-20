@@ -2,6 +2,18 @@ import { Country } from './country.interface';
 
 // https://restcountries.eu/rest/v2/all
 
+export class CountryTranslationDTO {
+    constructor(public language: string, public common: string, public official: string) { }
+}
+
+export class CountryNameDTO {
+    constructor(public common: string, public official: string, public native: CountryTranslationDTO[]) { }
+}
+
+export class CountryRegionalBlockDTO {
+    constructor(public acronym: string, public name: string) { }
+}
+
 export class CountryDTO {
     public alpha2Code: string;
     public alpha3Code: string;
@@ -54,18 +66,4 @@ export class CountryDTO {
         this.topLevelDomain = country.topLevelDomain;
         this.translations = country.translations.map((x) => new CountryTranslationDTO(x.language, x.common, x.official));
     }
-}
-
-// tslint:disable-next-line: max-classes-per-file
-export class CountryTranslationDTO {
-    constructor(public language: string, public common: string, public official: string) { }
-}
-
-// tslint:disable-next-line: max-classes-per-file
-export class CountryNameDTO {
-    constructor(public common: string, public official: string, public native: CountryTranslationDTO[]) { }
-}
-// tslint:disable-next-line: max-classes-per-file
-export class CountryRegionalBlockDTO {
-    constructor(public acronym: string, public name: string) { }
 }

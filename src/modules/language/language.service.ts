@@ -25,7 +25,7 @@ export class LanguageService {
         return result;
     }
 
-    public async getByAlpha3Code(code: string) {
+    public async getByAlpha3Code(code: string): Promise<Language> {
         if (code.length !== 3)
             throw new ValidationException(`Language alpha 3 code must be with 3 symbols`);
 
@@ -42,7 +42,7 @@ export class LanguageService {
         throw new NotFoundException(`Language with alpha 3 code ${code} not found.`);
     }
 
-    public async getByAlpha1Code(code: string) {
+    public async getByAlpha1Code(code: string): Promise<Language> {
         if (code.length !== 2)
             throw new ValidationException(`Language alpha 1 code must be with 2 symbols`);
 

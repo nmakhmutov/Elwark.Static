@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Inject, Injectable, LoggerService as NestLoggerService } from '@nestjs/common';
 import { Logger as WinstonLogger } from 'winston';
 import { LOGGER_LEVEL, LOGGER_WINSTON_PROVIDER } from './logger.constants';
