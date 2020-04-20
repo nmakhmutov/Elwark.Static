@@ -17,11 +17,11 @@ export class CurrencyDTO {
         this.decimalDigits = currency.decimalDigits;
         this.name = {
             singular: currency.name,
-            plural: currency.namePlural
+            plural: currency.namePlural,
         };
         this.symbol = {
             common: currency.symbol,
-            native: currency.symbolNative
+            native: currency.symbolNative,
         };
     }
 }

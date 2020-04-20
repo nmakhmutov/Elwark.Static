@@ -12,27 +12,19 @@ import { SeedService } from './seed/seed.service';
 async function bootstrap(): Promise<void> {
     config();
 
-    const app = await NestFactory.create<NestFastifyApplication>(
-        ApiModule,
-        new FastifyAdapter(),
-        {
-            logger: false
-        }
-    );
+    const app = await NestFactory.create<NestFastifyApplication>(ApiModule, new FastifyAdapter(), {
+        logger: false,
+    });
     app.useLogger(app.get(LoggerService));
     app.enableCors();
     app.useStaticAssets({
         prefix: '/static',
-        root: join(__dirname, '..', 'public')
+        root: join(__dirname, '..', 'public'),
     });
 
-    app.select(ImageModule)
-        .get(ImageWorker, { strict: true })
-        .Start();
+    app.select(ImageModule).get(ImageWorker, { strict: true }).Start();
 
-    app.select(SeedModule)
-        .get(SeedService, { strict: true })
-        .Seed();
+    app.select(SeedModule).get(SeedService, { strict: true }).Seed();
 
     await app.listenAsync(process.env.SERVER_PORT || 3000, '0.0.0.0');
 }

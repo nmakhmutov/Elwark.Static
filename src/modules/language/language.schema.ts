@@ -2,33 +2,33 @@ import { Schema } from 'mongoose';
 
 export const LanguageSchema = new Schema({
     alpha1: {
-        type: String
+        type: String,
     },
     alpha2b: {
-        type: String
+        type: String,
     },
     alpha2t: {
-        type: String
+        type: String,
     },
     alpha3: {
         type: String,
         required: true,
         index: true,
-        unique: true
+        unique: true,
     },
     name: {
         type: String,
-        required: true
+        required: true,
     },
     nativeName: {
-        type: String
+        type: String,
     },
     type: {
         type: String,
-        required: true
+        required: true,
     },
     scope: {
         type: String,
-        required: true
-    }
+        required: true,
+    },
 });

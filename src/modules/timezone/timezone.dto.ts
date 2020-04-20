@@ -1,11 +1,11 @@
 import { Timezone } from './timezone.interface';
 
 export class TimezoneCountryDTO {
-    constructor(public readonly alpha2: string, public readonly alpha3: string) { }
+    constructor(public readonly alpha2: string, public readonly alpha3: string) {}
 }
 
 export class TimezoneGmtDTO {
-    constructor(public readonly offset: number, public readonly name: string) { }
+    constructor(public readonly offset: number, public readonly name: string) {}
 }
 
 export class TimezoneDTO {

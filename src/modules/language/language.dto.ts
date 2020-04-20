@@ -1,15 +1,17 @@
 import { Language } from './language.interface';
 
 export class LanguageISO639DTO {
-    constructor(public readonly alpha3: string,
-                public readonly alpha2b?: string,
-                public readonly alpha2t?: string,
-                public readonly alpha1?: string) { }
+    constructor(
+        public readonly alpha3: string,
+        public readonly alpha2b?: string,
+        public readonly alpha2t?: string,
+        public readonly alpha1?: string,
+    ) {}
 }
 
 // tslint:disable-next-line: max-classes-per-file
 export class LanguageNameDTO {
-    constructor(public readonly common: string, public readonly native?: string) { }
+    constructor(public readonly common: string, public readonly native?: string) {}
 }
 
 // tslint:disable-next-line: max-classes-per-file

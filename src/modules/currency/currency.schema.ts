@@ -8,28 +8,28 @@ export const CurrencySchema = new Schema({
         maxlength: 3,
         uppercase: true,
         index: true,
-        unique: true
+        unique: true,
     },
     decimalDigits: {
         type: Number,
         required: true,
         min: 0,
-        max: 10
+        max: 10,
     },
     name: {
         type: String,
-        required: true
+        required: true,
     },
     namePlural: {
         type: String,
-        required: true
+        required: true,
     },
     symbol: {
         type: String,
-        required: true
+        required: true,
     },
     symbolNative: {
         type: String,
-        required: true
-    }
+        required: true,
+    },
 });

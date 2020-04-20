@@ -23,17 +23,17 @@ import { TimezoneModule } from './timezone/timezone.module';
         LanguageModule,
         TimezoneModule,
         ImageModule,
-        SeedModule
+        SeedModule,
     ],
-    providers: [{
-        provide: APP_INTERCEPTOR,
-        useClass: HttpLoggerExceptionInterceptor
-    }]
+    providers: [
+        {
+            provide: APP_INTERCEPTOR,
+            useClass: HttpLoggerExceptionInterceptor,
+        },
+    ],
 })
 export class ApiModule implements NestModule {
     public configure(consumer: MiddlewareConsumer): void | MiddlewareConsumer {
-        consumer
-            .apply(LoggerMiddleware)
-            .forRoutes('*');
+        consumer.apply(LoggerMiddleware).forRoutes('*');
     }
 }

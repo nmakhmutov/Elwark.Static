@@ -7,7 +7,7 @@ export const TimezoneSchema = new Schema({
         maxlength: 2,
         uppercase: true,
         required: true,
-        index: true
+        index: true,
     },
     alpha3Code: {
         type: String,
@@ -15,19 +15,19 @@ export const TimezoneSchema = new Schema({
         maxlength: 3,
         uppercase: true,
         required: true,
-        index: true
+        index: true,
     },
     zoneName: {
         type: String,
         required: true,
-        unique: true
+        unique: true,
     },
     gmtName: {
         type: String,
-        required: true
+        required: true,
     },
     gmtOffset: {
         type: String,
-        required: true
-    }
+        required: true,
+    },
 });

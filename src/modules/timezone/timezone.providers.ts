@@ -8,6 +8,6 @@ export const timezoneProviders = [
     {
         provide: TIMEZONE_MODEL,
         useFactory: (connection: Connection): Model<Timezone> => connection.model('timezones', TimezoneSchema),
-        inject: [DATABASE_CONNECTION]
-    }
+        inject: [DATABASE_CONNECTION],
+    },
 ];

@@ -21,12 +21,12 @@ export const RESOLUTIONS = [
     new ImageModel(ImageResolution.QHD, 2560, 1440),
     new ImageModel(ImageResolution.QHD, 1440, 2560),
     new ImageModel(ImageResolution.UHD, 3840, 2160),
-    new ImageModel(ImageResolution.UHD, 2160, 3840)
+    new ImageModel(ImageResolution.UHD, 2160, 3840),
 ];
 
 export const MAX_IMAGES_COUNT = RESOLUTIONS.length * 30;
 
-export const PUBLIC_FOLDER = join(__dirname, '..', '..', '..', 'public')
+export const PUBLIC_FOLDER = join(__dirname, '..', '..', '..', 'public');
 
 export const IMAGE_FOLDER = join(PUBLIC_FOLDER, 'images');
 

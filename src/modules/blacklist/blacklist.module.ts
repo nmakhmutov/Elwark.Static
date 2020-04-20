@@ -8,6 +8,6 @@ import { BlacklistService } from './blacklist.service';
     imports: [DatabaseModule],
     controllers: [BlackListController],
     providers: [BlacklistService, ...blaklistProviders],
-    exports: [BlacklistService]
+    exports: [BlacklistService],
 })
 export class BlacklistModule {}

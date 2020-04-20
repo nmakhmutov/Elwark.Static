@@ -5,7 +5,7 @@ import { TimezoneService } from './timezone.service';
 
 @Controller('timezones')
 export class TimezoneController {
-    constructor(private readonly timezoneService: TimezoneService) { }
+    constructor(private readonly timezoneService: TimezoneService) {}
 
     @Get()
     public async GetAll(): Promise<TimezoneDTO[]> {

@@ -4,7 +4,7 @@ import { BlacklistService } from './blacklist.service';
 
 @Controller('blacklist')
 export class BlackListController {
-    constructor(private readonly blacklistService: BlacklistService) { }
+    constructor(private readonly blacklistService: BlacklistService) {}
 
     @Get('password')
     public async GetPassword(): Promise<string[]> {

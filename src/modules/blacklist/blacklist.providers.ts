@@ -5,9 +5,9 @@ import { BlacklistSchema } from './blacklist.schema';
 import { Blacklist } from './blacklist.interface';
 
 export const blaklistProviders = [
-  {
-    provide: BLACKLIST_MODEL,
-    useFactory: (connection: Connection): Model<Blacklist> => connection.model('blacklist', BlacklistSchema),
-    inject: [DATABASE_CONNECTION]
-  }
+    {
+        provide: BLACKLIST_MODEL,
+        useFactory: (connection: Connection): Model<Blacklist> => connection.model('blacklist', BlacklistSchema),
+        inject: [DATABASE_CONNECTION],
+    },
 ];

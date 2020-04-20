@@ -8,6 +8,6 @@ export const languageProviders = [
     {
         provide: LANGUAGE_MODEL,
         useFactory: (connection: Connection): Model<Language> => connection.model('languages', LanguageSchema),
-        inject: [DATABASE_CONNECTION]
-    }
+        inject: [DATABASE_CONNECTION],
+    },
 ];

@@ -6,14 +6,11 @@ import { CountryService } from './country.service';
 
 @Controller('countries')
 export class CountryController {
-
-    constructor(private readonly countryService: CountryService) { }
+    constructor(private readonly countryService: CountryService) {}
 
     @Get()
     public async GetByCodes(@Query('codes') codes: string[]): Promise<CountryDTO[]> {
-        const result = codes
-            ? await this.countryService.getByCodes(codes)
-            : await this.countryService.getAll();
+        const result = codes ? await this.countryService.getByCodes(codes) : await this.countryService.getAll();
 
         return result.map((x) => new CountryDTO(x));
     }
@@ -56,8 +53,7 @@ export class CountryController {
     private GetCountryByCode(code: string): Promise<Country> {
         const numberCode = Number(code);
 
-        if (!isNaN(numberCode))
-            return this.countryService.getByNumericCode(numberCode);
+        if (!isNaN(numberCode)) return this.countryService.getByNumericCode(numberCode);
 
         switch (code.length) {
             case 2:

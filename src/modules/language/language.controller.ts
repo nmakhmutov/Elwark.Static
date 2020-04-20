@@ -5,7 +5,7 @@ import { LanguageService } from './language.service';
 
 @Controller('languages')
 export class LanguageController {
-    constructor(private readonly languageService: LanguageService) { }
+    constructor(private readonly languageService: LanguageService) {}
 
     @Get()
     public async Get(): Promise<LanguageDTO[]> {
@@ -22,7 +22,7 @@ export class LanguageController {
     }
 
     @Get('code/:code')
-    public async GetByCode(@Param('code') code: string): Promise<LanguageDTO>{
+    public async GetByCode(@Param('code') code: string): Promise<LanguageDTO> {
         let result;
 
         switch (code.length) {

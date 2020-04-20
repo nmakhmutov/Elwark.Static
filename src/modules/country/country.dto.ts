@@ -3,15 +3,15 @@ import { Country } from './country.interface';
 // https://restcountries.eu/rest/v2/all
 
 export class CountryTranslationDTO {
-    constructor(public language: string, public common: string, public official: string) { }
+    constructor(public language: string, public common: string, public official: string) {}
 }
 
 export class CountryNameDTO {
-    constructor(public common: string, public official: string, public native: CountryTranslationDTO[]) { }
+    constructor(public common: string, public official: string, public native: CountryTranslationDTO[]) {}
 }
 
 export class CountryRegionalBlockDTO {
-    constructor(public acronym: string, public name: string) { }
+    constructor(public acronym: string, public name: string) {}
 }
 
 export class CountryDTO {
@@ -57,13 +57,15 @@ export class CountryDTO {
         this.name = new CountryNameDTO(
             country.name.common,
             country.name.official,
-            country.name.native.map((x) => new CountryTranslationDTO(x.language,  x.common, x.official))
+            country.name.native.map((x) => new CountryTranslationDTO(x.language, x.common, x.official)),
         );
         this.region = country.region;
         this.timezones = country.timezones;
         this.regionalBlocs = country.regionalBlocs.map((x) => new CountryRegionalBlockDTO(x.acronym, x.name));
         this.subregion = country.subregion;
         this.topLevelDomain = country.topLevelDomain;
-        this.translations = country.translations.map((x) => new CountryTranslationDTO(x.language, x.common, x.official));
+        this.translations = country.translations.map(
+            (x) => new CountryTranslationDTO(x.language, x.common, x.official),
+        );
     }
 }

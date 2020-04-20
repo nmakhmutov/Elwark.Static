@@ -8,17 +8,15 @@ export enum ImageResolution {
     HDplus = 'hdplus',
     FHD = 'fhd',
     QHD = 'qhd',
-    UHD = 'uhd'
+    UHD = 'uhd',
 }
 
 export type ImageOrientation = 'landscape' | 'portrait';
 
 export class ImageModel {
-
     public pixels: number;
 
-    public orientation: ImageOrientation =
-        this.width >= this.height ? 'landscape' : 'portrait';
+    public orientation: ImageOrientation = this.width >= this.height ? 'landscape' : 'portrait';
 
     constructor(public name: ImageResolution, public width: number, public height: number) {
         this.pixels = width * height;

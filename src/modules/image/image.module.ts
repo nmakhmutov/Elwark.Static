@@ -8,6 +8,6 @@ import { ImageWorker } from './image.worker';
     imports: [UtilsService],
     controllers: [ImageController],
     providers: [ImageService, ImageWorker],
-    exports: [ImageService, ImageWorker]
+    exports: [ImageService, ImageWorker],
 })
-export class ImageModule { }
+export class ImageModule {}

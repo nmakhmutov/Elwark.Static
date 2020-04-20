@@ -15,8 +15,8 @@ import { SeedService } from './seed.service';
         ...countryProviders,
         ...currencyProviders,
         ...languageProviders,
-        ...timezoneProviders
+        ...timezoneProviders,
     ],
-    exports: [SeedService]
+    exports: [SeedService],
 })
-export class SeedModule { }
+export class SeedModule {}

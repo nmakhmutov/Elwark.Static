@@ -5,9 +5,9 @@ import { CurrencySchema } from './currency.schema';
 import { Currency } from './currency.interface';
 
 export const currencyProviders = [
-  {
-    provide: CURRENCY_MODEL,
-    useFactory: (connection: Connection): Model<Currency> => connection.model('currencies', CurrencySchema),
-    inject: [DATABASE_CONNECTION]
-  }
+    {
+        provide: CURRENCY_MODEL,
+        useFactory: (connection: Connection): Model<Currency> => connection.model('currencies', CurrencySchema),
+        inject: [DATABASE_CONNECTION],
+    },
 ];

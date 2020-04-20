@@ -4,8 +4,7 @@ import { CurrencyService } from './currency.service';
 
 @Controller('currencies')
 export class CurrencyController {
-
-    constructor(private readonly currencyService: CurrencyService) { }
+    constructor(private readonly currencyService: CurrencyService) {}
 
     @Get()
     public async Get(): Promise<CurrencyDTO[]> {

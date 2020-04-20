@@ -8,6 +8,6 @@ import { TimezoneService } from './timezone.service';
     imports: [DatabaseModule],
     controllers: [TimezoneController],
     providers: [TimezoneService, ...timezoneProviders],
-    exports: [TimezoneService]
+    exports: [TimezoneService],
 })
-export class TimezoneModule { }
+export class TimezoneModule {}

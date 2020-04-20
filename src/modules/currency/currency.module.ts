@@ -8,6 +8,6 @@ import { CurrencyService } from './currency.service';
     imports: [DatabaseModule],
     controllers: [CurrencyController],
     providers: [CurrencyService, ...currencyProviders],
-    exports: [CurrencyService]
+    exports: [CurrencyService],
 })
-export class CurrencyModule { }
+export class CurrencyModule {}

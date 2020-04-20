@@ -24,26 +24,21 @@ export class SeedService {
         @Inject(COUNTRY_MODEL) private readonly countryModel: Model<Country>,
         @Inject(CURRENCY_MODEL) private readonly currencyModel: Model<Currency>,
         @Inject(LANGUAGE_MODEL) private readonly languageModel: Model<Language>,
-        @Inject(TIMEZONE_MODEL) private readonly timezoneModel: Model<Timezone>
-    ) { }
+        @Inject(TIMEZONE_MODEL) private readonly timezoneModel: Model<Timezone>,
+    ) {}
 
     public async Seed(): Promise<void> {
         const tasks: Array<Promise<void>> = [];
 
-        if (await this.blacklistModel.countDocuments({}) === 0)
-            tasks.push(this.SeedBlacklist());
+        if ((await this.blacklistModel.countDocuments({})) === 0) tasks.push(this.SeedBlacklist());
 
-        if (await this.countryModel.countDocuments({}) === 0)
-            tasks.push(this.SeedCountry());
+        if ((await this.countryModel.countDocuments({})) === 0) tasks.push(this.SeedCountry());
 
-        if (await this.languageModel.countDocuments({}) === 0)
-            tasks.push(this.SeedLanguages());
+        if ((await this.languageModel.countDocuments({})) === 0) tasks.push(this.SeedLanguages());
 
-        if (await this.timezoneModel.countDocuments({}) === 0)
-            tasks.push(this.SeedTimezone());
+        if ((await this.timezoneModel.countDocuments({})) === 0) tasks.push(this.SeedTimezone());
 
-        if (await this.currencyModel.countDocuments({}) === 0)
-            tasks.push(this.SeedCurrency());
+        if ((await this.currencyModel.countDocuments({})) === 0) tasks.push(this.SeedCurrency());
 
         if (tasks.length > 0) {
             await Promise.all(tasks);
@@ -54,55 +49,60 @@ export class SeedService {
     private async SeedBlacklist(): Promise<void> {
         this.loggerService.info('Seed blacklist');
 
-        const data = await readFileSync(join(this.baseDir, 'blacklist.json'), { encoding: 'utf8' });
+        const data = await readFileSync(join(this.baseDir, 'blacklist.json'), {
+            encoding: 'utf8',
+        });
         const blackist = JSON.parse(data) as Blacklist[];
 
         const result = await this.blacklistModel.insertMany(blackist);
-        for (const item of result)
-            this.loggerService.info(`Blocked: ${item.id} ${item.value}`);
+        for (const item of result) this.loggerService.info(`Blocked: ${item.id} ${item.value}`);
     }
 
     private async SeedCountry(): Promise<void> {
         this.loggerService.info('Seed countries');
 
-        const data = await readFileSync(join(this.baseDir, 'countries.json'), { encoding: 'utf8' });
+        const data = await readFileSync(join(this.baseDir, 'countries.json'), {
+            encoding: 'utf8',
+        });
         const countries = JSON.parse(data) as Country[];
 
         const result = await this.countryModel.insertMany(countries);
-        for (const country of result)
-            this.loggerService.info(`Country: ${country.id} ${country.alpha3Code}`);
+        for (const country of result) this.loggerService.info(`Country: ${country.id} ${country.alpha3Code}`);
     }
 
     private async SeedCurrency(): Promise<void> {
         this.loggerService.info('Seed currencies');
 
-        const data = await readFileSync(join(this.baseDir, 'currencies.json'), { encoding: 'utf8' });
+        const data = await readFileSync(join(this.baseDir, 'currencies.json'), {
+            encoding: 'utf8',
+        });
         const currencies = JSON.parse(data) as Currency[];
 
         const result = await this.currencyModel.insertMany(currencies);
-        for (const currency of result)
-            this.loggerService.info(`Currency: ${currency.id} ${currency.name}`);
+        for (const currency of result) this.loggerService.info(`Currency: ${currency.id} ${currency.name}`);
     }
 
     private async SeedLanguages(): Promise<void> {
         this.loggerService.info('Seed languages');
 
-        const data = await readFileSync(join(this.baseDir, 'languages.json'), { encoding: 'utf8' });
+        const data = await readFileSync(join(this.baseDir, 'languages.json'), {
+            encoding: 'utf8',
+        });
         const languages = JSON.parse(data) as Language[];
 
         const result = await this.languageModel.insertMany(languages);
-        for (const language of result)
-            this.loggerService.info(`Language: ${language.id} ${language.name}`);
+        for (const language of result) this.loggerService.info(`Language: ${language.id} ${language.name}`);
     }
 
     private async SeedTimezone(): Promise<void> {
         this.loggerService.info('Seed timezones');
 
-        const data = await readFileSync(join(this.baseDir, 'timezones.json'), { encoding: 'utf8' });
-        const timezones = (JSON.parse(data) as Timezone[]);
+        const data = await readFileSync(join(this.baseDir, 'timezones.json'), {
+            encoding: 'utf8',
+        });
+        const timezones = JSON.parse(data) as Timezone[];
 
         const result = await this.timezoneModel.insertMany(timezones);
-        for (const timezone of result)
-            this.loggerService.info(`Timezone: ${timezone.id} ${timezone.zoneName}`);
+        for (const timezone of result) this.loggerService.info(`Timezone: ${timezone.id} ${timezone.zoneName}`);
     }
 }

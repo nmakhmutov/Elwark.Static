@@ -5,10 +5,10 @@ export const BlacklistSchema = new Schema({
         type: Number,
         required: true,
         index: true,
-        min: 1
+        min: 1,
     },
     value: {
         type: String,
-        required: true
-    }
+        required: true,
+    },
 });

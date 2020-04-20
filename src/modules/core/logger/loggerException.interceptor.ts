@@ -4,7 +4,7 @@ import {
     ExecutionContext,
     HttpException,
     Injectable,
-    NestInterceptor
+    NestInterceptor,
 } from '@nestjs/common';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
@@ -12,13 +12,12 @@ import { LoggerService } from './logger.service';
 
 @Injectable()
 export class HttpLoggerExceptionInterceptor implements NestInterceptor {
-
-    constructor(private loggerService: LoggerService) { }
+    constructor(private loggerService: LoggerService) {}
 
     public intercept(context: ExecutionContext, next: CallHandler): Observable<unknown> {
-        return next.handle()
+        return next.handle().pipe(
             // eslint-disable-next-line @typescript-eslint/no-unused-vars
-            .pipe(catchError((err: {}, cautch: Observable<unknown>) => {
+            catchError((err: {}, cautch: Observable<unknown>) => {
                 if (err instanceof HttpException)
                     if (500 <= err.getStatus()) {
                         this.loggerService.error(`HttpException ${err.getStatus()}: ${err.message}`);
@@ -34,6 +33,7 @@ export class HttpLoggerExceptionInterceptor implements NestInterceptor {
 
                     return throwError(new BadGatewayException());
                 }
-            }));
+            }),
+        );
     }
 }

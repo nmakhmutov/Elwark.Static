@@ -8,7 +8,7 @@ export const CountrySchema = new Schema({
         uppercase: true,
         required: true,
         unique: true,
-        index: true
+        index: true,
     },
     alpha3Code: {
         type: String,
@@ -17,112 +17,118 @@ export const CountrySchema = new Schema({
         uppercase: true,
         required: true,
         unique: true,
-        index: true
+        index: true,
     },
     numericCode: {
         type: String,
         required: true,
         unique: true,
-        index: true
+        index: true,
     },
     area: {
         type: Number,
-        min: 0
+        min: 0,
     },
     borders: {
         type: [String],
-        default: []
+        default: [],
     },
     callingCodes: {
         type: [Number],
         default: [],
-        required: true
+        required: true,
     },
     capital: {
-        type: String
+        type: String,
     },
     currencies: {
         type: [String],
-        default: []
+        default: [],
     },
     demonym: {
-        type: String
+        type: String,
     },
     flag: {
         type: String,
-        required: true
+        required: true,
     },
     independent: {
         type: Boolean,
-        required: true
+        required: true,
     },
     landlocked: {
         type: Boolean,
-        required: true
+        required: true,
     },
     languages: {
         type: [String],
         required: true,
-        default: []
+        default: [],
     },
     latitude: {
         type: Number,
-        required: true
+        required: true,
     },
     longitude: {
         type: Number,
-        required: true
+        required: true,
     },
     name: {
         common: {
             type: String,
-            required: true
+            required: true,
         },
         official: {
             type: String,
-            required: true
+            required: true,
         },
-        native: [{
+        native: [
+            {
+                _id: false,
+                language: {
+                    type: String,
+                    required: true,
+                    uppercase: true,
+                },
+                common: String,
+                official: String,
+            },
+        ],
+    },
+    timezones: {
+        type: [String],
+        default: [],
+    },
+    region: {
+        type: String,
+    },
+    regionalBlocs: {
+        type: [
+            {
+                _id: false,
+                acronym: String,
+                name: String,
+            },
+        ],
+        default: [],
+    },
+    subregion: {
+        type: String,
+    },
+    topLevelDomain: {
+        type: [String],
+        default: [],
+    },
+    translations: [
+        {
             _id: false,
             language: {
                 type: String,
                 required: true,
-                uppercase: true
+                uppercase: true,
             },
             common: String,
-            official: String
-        }]
-    },
-    timezones: {
-        type: [String],
-        default: []
-    },
-    region: {
-        type: String
-    },
-    regionalBlocs: {
-        type: [{
-            _id: false,
-            acronym: String,
-            name: String
-        }],
-        default: []
-    },
-    subregion: {
-        type: String
-    },
-    topLevelDomain: {
-        type: [String],
-        default: []
-    },
-    translations: [{
-        _id: false,
-        language: {
-            type: String,
-            required: true,
-            uppercase: true
+            official: String,
         },
-        common: String,
-        official: String
-    }]
+    ],
 });
