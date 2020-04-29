@@ -3,7 +3,6 @@ import { readdir, statSync } from 'fs';
 import { basename, resolve } from 'path';
 import { promisify } from 'util';
 import {
-    ADMIN_ICONS_FOLDER,
     getFilePrefix,
     IMAGE_RANDOM_FOLDER,
     MAX_IMAGES_COUNT,
@@ -36,15 +35,6 @@ export class ImageService {
         return images.reduce((prev, curr) =>
             Math.abs(curr.pixels - pixels) < Math.abs(prev.pixels - pixels) ? curr : prev,
         );
-    };
-
-    public getAdminImages = async (): Promise<string[]> => {
-        const files = await promisify(readdir)(ADMIN_ICONS_FOLDER);
-        const images = files
-            .map((file) => resolve(ADMIN_ICONS_FOLDER, file))
-            .map((path) => path.substr(path.indexOf('public'), path.length).replace('public', 'static'));
-
-        return images;
     };
 
     public getResolutionByName = (

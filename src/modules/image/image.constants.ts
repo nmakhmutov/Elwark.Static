@@ -32,9 +32,5 @@ export const IMAGE_FOLDER = join(PUBLIC_FOLDER, 'images');
 
 export const IMAGE_RANDOM_FOLDER = join(IMAGE_FOLDER, 'random');
 
-export const ICONS_FOLDER = join(PUBLIC_FOLDER, 'icons');
-
-export const ADMIN_ICONS_FOLDER = join(ICONS_FOLDER, 'admin');
-
 export const getFilePrefix = (name: ImageResolution, orientation: ImageOrientation, ...args: string[]): string =>
     `${name.toLowerCase()}_${orientation.toLowerCase()}` + (args.length > 0 ? '_' + args.join('_') : '');

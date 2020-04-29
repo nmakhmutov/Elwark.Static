@@ -57,11 +57,4 @@ export class ImageController {
 
         return res.type('image/png').send(createReadStream(imageUrl));
     }
-
-    @Get('admin')
-    public async getAdminImages(@Req() req: Request<unknown>): Promise<unknown> {
-        const result = await this.imageService.getAdminImages();
-
-        return result.map((x) => new URL(x, `http://${req.hostname}`));
-    }
 }

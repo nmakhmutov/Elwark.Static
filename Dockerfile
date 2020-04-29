@@ -1,4 +1,4 @@
-FROM node:13 AS builder
+FROM node:14 AS builder
 WORKDIR /app
 
 COPY package.json ./
@@ -6,7 +6,7 @@ COPY tsconfig*.json ./
 COPY ./src ./src
 RUN npm install && npm run prestart:prod
 
-FROM node:13-slim
+FROM node:14-slim
 WORKDIR /app
 ENV NODE_ENV=production
 
