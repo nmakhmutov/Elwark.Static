@@ -4,21 +4,24 @@ on:
   push:
     branches: [ master ] 
 
+env:
+  NAME: docker.pkg.github.com/nmakhmutov/elwark.storage/storage.api
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Get current date
-        id: date
-        run: echo "::set-output name=date::$(date +'%s')"
+      - name: Get latest tag
+        id: tag
+        run: echo "::set-output name=tag::${NAME}:$(date +'%s')"
       
       - uses: actions/checkout@v2
       - name: Login to DockerHub Registry
         run: echo ${{ secrets.GH_TOKEN }} | docker login docker.pkg.github.com -u nmakhmutov --password-stdin
 
       - name: Build the Docker image
-        run: docker build . --file ./Dockerfile --tag docker.pkg.github.com/nmakhmutov/elwark.storage/storage.api:${{steps.date.outputs.date}}
+        run: docker build . --file ./Dockerfile --tag ${{steps.tag.outputs.tag}} --tag ${NAME}:latest
     
       - name: Publish the Docker image
-        run: docker push docker.pkg.github.com/nmakhmutov/elwark.storage/storage.api:${{steps.date.outputs.date}}
+        run: docker push ${{steps.tag.outputs.tag}}
