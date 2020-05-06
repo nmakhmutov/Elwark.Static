@@ -2,9 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
-env:
-  IMAGE_NAME: $(date +%s)
+    branches: [ master ] 
 
 jobs:
 
@@ -13,12 +11,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Login to DockerHub Registry
-      run: echo ${{ secrets.GH_TOKEN }} | docker login docker.pkg.github.com -u nmakhmutov --password-stdin
+      - name: set environment variables
+        uses: allenevans/set-env@v1.0.0
+        with:
+          IMAGE_NAME: $(date +%s)
+      
+      - uses: actions/checkout@v2
+      - name: Login to DockerHub Registry
+        run: echo ${{ secrets.GH_TOKEN }} | docker login docker.pkg.github.com -u nmakhmutov --password-stdin
 
-    - name: Build the Docker image
-      run: docker build . --file ./Dockerfile --tag elwark/storage.api:$IMAGE_NAME
+      - name: Build the Docker image
+        run: docker build . --file ./Dockerfile --tag elwark/storage.api:${IMAGE_NAME}
     
-    - name: Publish the Docker image
-      run: docker push docker.pkg.github.com/nmakhmutov/elwark.storage/elwark/storage.api:$IMAGE_NAME
+      - name: Publish the Docker image
+        run: docker push docker.pkg.github.com/nmakhmutov/elwark.storage/elwark/storage.api:${IMAGE_NAME}
