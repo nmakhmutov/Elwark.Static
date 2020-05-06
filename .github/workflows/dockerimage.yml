@@ -18,7 +18,7 @@ jobs:
         run: echo ${{ secrets.GH_TOKEN }} | docker login docker.pkg.github.com -u nmakhmutov --password-stdin
 
       - name: Build the Docker image
-        run: docker build . --file ./Dockerfile --tag storage.api:${{steps.date.outputs.date}}
+        run: docker build . --file ./Dockerfile --tag docker.pkg.github.com/nmakhmutov/elwark.storage/storage.api:${{steps.date.outputs.date}}
     
       - name: Publish the Docker image
         run: docker push docker.pkg.github.com/nmakhmutov/elwark.storage/storage.api:${{steps.date.outputs.date}}
