@@ -14,7 +14,7 @@ jobs:
       - name: set environment variables
         uses: allenevans/set-env@v1.0.0
         with:
-          IMAGE_NAME: $(date +%s)
+          IMAGE_NAME: ${(date +%s)}
       
       - uses: actions/checkout@v2
       - name: Login to DockerHub Registry
