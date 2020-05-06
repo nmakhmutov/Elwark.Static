@@ -23,5 +23,8 @@ jobs:
       - name: Build the Docker image
         run: docker build --file ./Dockerfile -t ${NAME}:${{steps.date.outputs.value}} -t ${NAME}:latest .
     
-      - name: Publish the Docker image
-        run: docker push ${{steps.tag.outputs.tag}}
+      - name: Publish current version
+        run: docker push ${NAME}:${{steps.date.outputs.value}}
+
+      - name: Publish latest version
+        run: docker push ${NAME}:latest
