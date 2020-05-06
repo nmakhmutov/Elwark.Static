@@ -13,15 +13,15 @@ jobs:
 
     steps:
       - name: Get latest tag
-        id: tag
-        run: echo "::set-output name=tag::${NAME}:$(date +'%s')"
+        id: date
+        run: echo "::set-output name=value::$(date +'%s')"
       
       - uses: actions/checkout@v2
       - name: Login to DockerHub Registry
         run: echo ${{ secrets.GH_TOKEN }} | docker login docker.pkg.github.com -u nmakhmutov --password-stdin
 
       - name: Build the Docker image
-        run: docker build . --file ./Dockerfile --tag ${{steps.tag.outputs.tag}} --tag ${NAME}:latest
+        run: docker build --file ./Dockerfile -t ${NAME}:${{steps.date.outputs.value}} -t ${NAME}:latest .
     
       - name: Publish the Docker image
         run: docker push ${{steps.tag.outputs.tag}}
