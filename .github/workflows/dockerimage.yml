@@ -11,14 +11,14 @@ jobs:
     steps:
       - name: Get current date
         id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+        run: echo "::set-output name=date::$(date +'%s')"
       
       - uses: actions/checkout@v2
       - name: Login to DockerHub Registry
         run: echo ${{ secrets.GH_TOKEN }} | docker login docker.pkg.github.com -u nmakhmutov --password-stdin
 
       - name: Build the Docker image
-        run: docker build . --file ./Dockerfile --tag elwark/storage.api:${{steps.date.outputs.date}}
+        run: docker build . --file ./Dockerfile --tag storage.api:${{steps.date.outputs.date}}
     
       - name: Publish the Docker image
-        run: docker push docker.pkg.github.com/nmakhmutov/elwark.storage/elwark/storage.api:${{steps.date.outputs.date}}
+        run: docker push docker.pkg.github.com/nmakhmutov/elwark.storage/storage.api:${{steps.date.outputs.date}}
