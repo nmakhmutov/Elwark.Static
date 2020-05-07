@@ -11,7 +11,6 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install --only=production
 COPY . .
-COPY --from=builder /app/public ./public
 COPY --from=builder /app/build ./build
 
 CMD ["node", "build/main"]
