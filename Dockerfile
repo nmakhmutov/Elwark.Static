@@ -1,18 +1,17 @@
-FROM node:14 AS builder
+FROM node:14 As builder
 WORKDIR /app
+COPY package*.json ./
+RUN npm install --only=development
+COPY . .
+RUN npm run build
 
-COPY package.json ./
-COPY tsconfig*.json ./
-COPY ./src ./src
-RUN npm install && npm run prestart:prod
-
-FROM node:14-slim
-WORKDIR /app
+FROM node:14-slim as production
 ENV NODE_ENV=production
-
-COPY package.json ./
-RUN npm install
+WORKDIR /app
+COPY package*.json ./
+RUN npm install --only=production
+COPY . .
+COPY --from=builder /app/public ./public
 COPY --from=builder /app/build ./build
-COPY ./public ./public
 
-CMD ["node", "build/main.js"]
+CMD ["node", "build/main"]

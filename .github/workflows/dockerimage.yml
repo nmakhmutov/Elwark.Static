@@ -1,30 +1,32 @@
-name: CI
+name: Deploy to docker hub
 
 on:
-  push:
-    branches: [ master ] 
-
-env:
-  NAME: docker.pkg.github.com/nmakhmutov/elwark.storage/storage.api
+   push:
+     branches:    
+      - master
+     tags:
+       - 'v*'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    steps:
-      - name: Get latest tag
-        id: date
-        run: echo "::set-output name=value::$(date +'%s')"
-      
-      - uses: actions/checkout@v2
-      - name: Login to DockerHub Registry
-        run: echo ${{ secrets.GH_TOKEN }} | docker login docker.pkg.github.com -u nmakhmutov --password-stdin
-
-      - name: Build the Docker image
-        run: docker build --file ./Dockerfile -t ${NAME}:${{steps.date.outputs.value}} -t ${NAME}:latest .
     
-      - name: Publish current version
-        run: docker push ${NAME}:${{steps.date.outputs.value}}
+    steps:
+      - uses: actions/checkout@master
 
-      - name: Publish latest version
-        run: docker push ${NAME}:latest
+      - name: Login to docker hub
+        if: success()
+        uses: actions-hub/docker/login@master
+        env:
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.GH_TOKEN }}
+
+      - name: Build image
+        if: success()
+        run: docker build -t ${GITHUB_REPOSITORY}:${IMAGE_TAG} .
+
+      - name: Push to docker registry
+        if: success()
+        uses: actions-hub/docker@master
+        with:
+          args: push ${GITHUB_REPOSITORY}:${IMAGE_TAG}
