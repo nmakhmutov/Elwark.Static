@@ -20,13 +20,14 @@ jobs:
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_PASSWORD: ${{ secrets.GH_TOKEN }}
+          DOCKER_REGISTRY_URL: docker.pkg.github.com
 
-      - name: Build image
+      - name: Build :latest
         if: success()
-        run: docker build -t ${GITHUB_REPOSITORY}:${IMAGE_TAG} .
-
-      - name: Push to docker registry
+        run: docker build -t docker.pkg.github.com/${{ github.repository }}/api:latest .
+      
+      - name: Push to docker hub :latest
         if: success()
         uses: actions-hub/docker@master
         with:
-          args: push ${GITHUB_REPOSITORY}:${IMAGE_TAG}
+          args: push docker.pkg.github.com/${{ github.repository }}:latest
