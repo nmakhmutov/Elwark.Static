@@ -1,7 +1,7 @@
 FROM node:14 As builder
 WORKDIR /app
 COPY package*.json ./
-RUN npm install --only=development
+RUN npm install
 COPY . .
 RUN npm run build
 
