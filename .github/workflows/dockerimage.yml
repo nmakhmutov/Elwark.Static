@@ -24,10 +24,10 @@ jobs:
 
       - name: Build :latest
         if: success()
-        run: docker build -t docker.pkg.github.com/${{ github.repository }}/api:latest .
+        run: docker build -t docker.pkg.github.com/nmakhmutov/elwark.storage/api:latest .
       
       - name: Push to docker hub :latest
         if: success()
         uses: actions-hub/docker@master
         with:
-          args: push docker.pkg.github.com/${{ github.repository }}:latest
+          args: push docker.pkg.github.com/nmakhmutov/elwark.storage/api:latest
