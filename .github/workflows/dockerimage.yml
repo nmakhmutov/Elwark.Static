@@ -14,20 +14,12 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - name: Login to docker hub
-        if: success()
-        uses: actions-hub/docker/login@master
-        env:
-          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-          DOCKER_PASSWORD: ${{ secrets.GH_TOKEN }}
-          DOCKER_REGISTRY_URL: docker.pkg.github.com
-
-      - name: Build :latest
-        if: success()
-        run: docker build -t docker.pkg.github.com/nmakhmutov/elwark.storage/api:latest .
-      
-      - name: Push to docker hub :latest
-        if: success()
-        uses: actions-hub/docker@master
+      - name: Publish to Github Packages Registry
+        uses: elgohr/Publish-Docker-Github-Action@master
         with:
-          args: push docker.pkg.github.com/nmakhmutov/elwark.storage/api:latest
+          name: nmakhmutov/elwark.storage/api
+          registry: docker.pkg.github.com
+          username: ${{ secrets.GITHUB_USERNAME }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          dockerfile: Dockerfile
+          tags: latest
