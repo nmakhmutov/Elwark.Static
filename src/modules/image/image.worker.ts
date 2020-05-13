@@ -85,8 +85,6 @@ export class ImageWorker {
 
     private getRandomImage = async (width: number, height: number): Promise<Buffer> => {
         const providers = [
-            `http://picsum.photos/${width}/${height}/?random`,
-
             `https://source.unsplash.com/random/${width}x${height}?nature`,
             `https://source.unsplash.com/random/${width}x${height}?arch`,
 
