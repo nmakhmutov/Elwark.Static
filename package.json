@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@nestjs/testing": "^7.0.9",
-    "@types/mongoose": "^5.7.16",
+    "@types/mongoose": "^5.7.18",
     "@types/node": "^13.13.5",
     "@types/request-promise": "^4.1.46",
     "@typescript-eslint/eslint-plugin": "^2.32.0",
