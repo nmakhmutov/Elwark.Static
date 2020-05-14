@@ -1,11 +1,8 @@
 name: Deploy to docker hub
 
 on:
-   push:
-     branches:    
-      - master
-     tags:
-       - 'v*'
+  release:
+    types: [published]
 
 jobs:
   build:
