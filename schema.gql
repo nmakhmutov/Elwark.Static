@@ -1,0 +1,50 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type CountryTranslationDto {
+  language: String!
+  common: String!
+  official: String!
+}
+
+type CountryNameDto {
+  common: String!
+  official: String!
+  native: [CountryTranslationDto!]!
+}
+
+type CountryRegionalBlockDto {
+  acronym: String!
+  name: String!
+}
+
+type CountryDto {
+  alpha2Code: String!
+  alpha3Code: String!
+  numericCode: String!
+  area: Float!
+  borders: [String!]!
+  callingCodes: [Int!]!
+  capital: String
+  currencies: [String!]!
+  demonym: String!
+  flag: String!
+  independent: Boolean!
+  landlocked: Boolean!
+  languages: [String!]!
+  latitude: Float!
+  longitude: Float!
+  name: CountryNameDto!
+  timezones: [String!]!
+  region: String
+  regionalBlocs: [CountryRegionalBlockDto!]!
+  subregion: String
+  topLevelDomain: [String!]!
+  translations: [CountryTranslationDto!]!
+}
+
+type Query {
+  countries(codes: [String!]): [CountryDto!]!
+  country(code: String!): [CountryDto!]!
+}

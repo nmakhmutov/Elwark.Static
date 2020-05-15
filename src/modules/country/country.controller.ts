@@ -1,53 +1,55 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
 import { ValidationException } from '../../exeptions/validation.exception';
-import { CountryDTO } from './country.dto';
+import { CountryDto } from './country.dto';
 import { Country } from './country.interface';
 import { CountryService } from './country.service';
 
 @Controller('countries')
 export class CountryController {
-    constructor(private readonly countryService: CountryService) {}
+    constructor(private readonly countryService: CountryService) { }
 
     @Get()
-    public async GetByCodes(@Query('codes') codes: string[]): Promise<CountryDTO[]> {
-        const result = codes ? await this.countryService.getByCodes(codes) : await this.countryService.getAll();
+    public async GetByCodes(@Query('codes') codes: string[]): Promise<CountryDto[]> {
+        const result = codes
+            ? await this.countryService.getByCodes(codes)
+            : await this.countryService.getAll();
 
-        return result.map((x) => new CountryDTO(x));
+        return result.map((x) => new CountryDto(x));
     }
 
     @Get('code/:code')
-    public async GetByCode(@Param('code') code: string): Promise<CountryDTO> {
+    public async GetByCode(@Param('code') code: string): Promise<CountryDto> {
         const result = await this.GetCountryByCode(code);
 
-        return new CountryDTO(result);
+        return new CountryDto(result);
     }
 
     @Get('capital/:capital')
-    public async GetByCapital(@Param('capital') capital: string): Promise<CountryDTO> {
+    public async GetByCapital(@Param('capital') capital: string): Promise<CountryDto> {
         const result = await this.countryService.getByCapital(capital);
 
-        return new CountryDTO(result);
+        return new CountryDto(result);
     }
 
     @Get('name/:name')
-    public async GetByName(@Param('name') name: string): Promise<CountryDTO> {
+    public async GetByName(@Param('name') name: string): Promise<CountryDto> {
         const result = await this.countryService.getByCommonName(name);
 
-        return new CountryDTO(result);
+        return new CountryDto(result);
     }
 
     @Get('region/:region')
-    public async GetByRegion(@Param('region') region: string): Promise<CountryDTO[]> {
+    public async GetByRegion(@Param('region') region: string): Promise<CountryDto[]> {
         const result = await this.countryService.getByRegion(region);
 
-        return result.map((x) => new CountryDTO(x));
+        return result.map((x) => new CountryDto(x));
     }
 
     @Get('currency/:currency')
-    public async GetByCurrency(@Param('currency') currency: string): Promise<CountryDTO[]> {
+    public async GetByCurrency(@Param('currency') currency: string): Promise<CountryDto[]> {
         const result = await this.countryService.getByCurrency(currency);
 
-        return result.map((x) => new CountryDTO(x));
+        return result.map((x) => new CountryDto(x));
     }
 
     private GetCountryByCode(code: string): Promise<Country> {

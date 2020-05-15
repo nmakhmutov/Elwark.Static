@@ -11,6 +11,7 @@ import { CurrencyModule } from './currency/currency.module';
 import { ImageModule } from './image/image.module';
 import { LanguageModule } from './language/language.module';
 import { TimezoneModule } from './timezone/timezone.module';
+import { GraphQLModule } from '@nestjs/graphql';
 
 @Module({
     imports: [
@@ -24,6 +25,10 @@ import { TimezoneModule } from './timezone/timezone.module';
         TimezoneModule,
         ImageModule,
         SeedModule,
+        
+        GraphQLModule.forRoot({
+            autoSchemaFile: 'schema.gql',
+        })
     ],
     providers: [
         {

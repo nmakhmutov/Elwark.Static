@@ -3,11 +3,12 @@ import { DatabaseModule } from '../../database/database.module';
 import { CountryController } from './country.controller';
 import { countryProviders } from './country.providers';
 import { CountryService } from './country.service';
+import { CountryResolver } from './country.resolver';
 
 @Module({
     imports: [DatabaseModule],
     controllers: [CountryController],
-    providers: [CountryService, ...countryProviders],
+    providers: [CountryService, CountryResolver, ...countryProviders],
     exports: [CountryService],
 })
 export class CountryModule {}

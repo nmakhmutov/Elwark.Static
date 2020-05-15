@@ -20,7 +20,7 @@ export class CountryService {
             $or: [
                 { [nameof<Country>('alpha2Code')]: { $in: codes } },
                 { [nameof<Country>('alpha3Code')]: { $in: codes } },
-            ],
+            ]
         });
 
         if (result.length !== 0) return result;
