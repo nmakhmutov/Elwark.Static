@@ -18,7 +18,7 @@ export class CountryResolver {
         return (await result).map(x => new CountryDto(x));
     }
 
-    @Query(() => [CountryDto])
+    @Query(() => CountryDto)
     async country(@Args('code') code: string): Promise<CountryDto> {
         const result = await this.countryService.getByAlpha2Code(code);
 

@@ -10,6 +10,9 @@ export class CountryController {
 
     @Get()
     public async GetByCodes(@Query('codes') codes: string[]): Promise<CountryDto[]> {
+        if(typeof(codes) === 'string')
+            codes = [codes];
+
         const result = codes
             ? await this.countryService.getByCodes(codes)
             : await this.countryService.getAll();
@@ -55,7 +58,8 @@ export class CountryController {
     private GetCountryByCode(code: string): Promise<Country> {
         const numberCode = Number(code);
 
-        if (!isNaN(numberCode)) return this.countryService.getByNumericCode(numberCode);
+        if (!isNaN(numberCode)) 
+            return this.countryService.getByNumericCode(numberCode);
 
         switch (code.length) {
             case 2:

@@ -7,7 +7,7 @@ import { Country, CountryTranslation } from './country.interface';
 
 @Injectable()
 export class CountryService {
-    constructor(@Inject(COUNTRY_MODEL) private readonly countryModel: Model<Country>) {}
+    constructor(@Inject(COUNTRY_MODEL) private readonly countryModel: Model<Country>) { }
 
     public async getAll(): Promise<Country[]> {
         const result = await this.countryModel.find();
@@ -16,14 +16,24 @@ export class CountryService {
     }
 
     public async getByCodes(codes: string[]): Promise<Country[]> {
-        const result = await this.countryModel.find({
-            $or: [
-                { [nameof<Country>('alpha2Code')]: { $in: codes } },
-                { [nameof<Country>('alpha3Code')]: { $in: codes } },
-            ]
-        });
+        const query = [];
 
-        if (result.length !== 0) return result;
+        const alpha2 = codes.filter(x => x.length === 2 && isNaN(Number.parseInt(x)));
+        if (alpha2.length > 0)
+            query.push({ [nameof<Country>('alpha2Code')]: { $in: alpha2 } });
+
+        const alpha3 = codes.filter(x => x.length === 3 && isNaN(Number.parseInt(x)));
+        if (alpha3.length > 0)
+            query.push({ [nameof<Country>('alpha3Code')]: { $in: alpha3 } });
+
+        const numeric = codes.filter(x => !isNaN(Number.parseInt(x)));
+        if (numeric.length > 0)
+            query.push({ [nameof<Country>('numericCode')]: { $in: numeric } });
+
+        const result = await this.countryModel.find({ $or: query });
+
+        if (result.length !== 0)
+            return result;
 
         throw new NotFoundException(`Country with codes (${codes.join(', ')}) not found`);
     }
