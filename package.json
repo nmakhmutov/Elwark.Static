@@ -27,7 +27,7 @@
     "graphql": "^15.0.0",
     "graphql-tools": "^5.0.0",
     "logform": "^2.1.2",
-    "mongoose": "^5.9.14",
+    "mongoose": "^5.9.15",
     "reflect-metadata": "^0.1.13",
     "request": "2.88.2",
     "request-promise": "^4.2.5",
