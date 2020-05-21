@@ -1,6 +1,6 @@
 import { Resolver, Query, Args } from "@nestjs/graphql";
 import { CountryService } from './country.service';
-import { CountryDto as CountryDto } from "./country.dto";
+import { CountryDto as CountryDto } from './country.dto';
 import { CountriesArgs } from "./country.args";
 
 @Resolver(() => CountryDto)
