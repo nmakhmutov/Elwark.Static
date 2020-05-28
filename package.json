@@ -25,7 +25,7 @@
     "fastify": "^2.14.1",
     "fastify-static": "^2.7.0",
     "graphql": "^15.0.0",
-    "graphql-tools": "^5.0.0",
+    "graphql-tools": "^6.0.3",
     "logform": "^2.1.2",
     "mongoose": "^5.9.15",
     "reflect-metadata": "^0.1.13",
